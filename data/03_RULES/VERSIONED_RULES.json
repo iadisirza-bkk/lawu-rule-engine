@@ -1,0 +1,4076 @@
+[
+  {
+    "node_id": "th-criminal:dependency:59@1957-01-01",
+    "label": "59",
+    "interval": {
+      "effective_from": "1957-01-01",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": null,
+    "thai_equation": "(【กระทำโดยรู้สำนึกในการที่กระทำ】 และ (AND) 【ในขณะเดียวกัน】 และ (AND) (【ผู้กระทำประสงค์ต่อผล】 หรือ (OR) 【ย่อมเล็งเห็นผลของการกระทำนั้น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:59@1957-01-01/element:conscious_action"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:59@1957-01-01/element:contemporaneity"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:59@1957-01-01/element:desire_result"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:59@1957-01-01/element:foresee_result"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:59@1957-01-01",
+        "start": 0,
+        "end": 784,
+        "quote": "มาตรา ๕๙ บุคคลจะต้องรับผิดในทางอาญาก็ต่อเมื่อได้กระทำโดยเจตนา เว้นแต่จะได้กระทำโดยประมาท ในกรณีที่กฎหมายบัญญัติให้ต้องรับผิดเมื่อได้กระทำโดยประมาท หรือเว้นแต่ในกรณีที่กฎหมายบัญญัติไว้โดยแจ้งชัดให้ต้องรับผิดแม้ได้กระทำโดยไม่มีเจตนา\nกระทำโดยเจตนา ได้แก่กระทำโดยรู้สำนึกในการที่กระทำและในขณะเดียวกันผู้กระทำประสงค์ต่อผล หรือย่อมเล็งเห็นผลของการกระทำนั้น\nถ้าผู้กระทำมิได้รู้ข้อเท็จจริงอันเป็นองค์ประกอบของความผิด จะถือว่าผู้กระทำประสงค์ต่อผล หรือย่อมเล็งเห็นผลของการกระทำนั้นมิได้\nกระทำโดยประมาท ได้แก่กระทำความผิดมิใช่โดยเจตนา แต่กระทำโดยปราศจากความระมัดระวังซึ่งบุคคลในภาวะเช่นนั้นจักต้องมีตามวิสัยและพฤติการณ์ และผู้กระทำอาจใช้ความระมัดระวังเช่นว่านั้นได้ แต่หาได้ใช้ให้เพียงพอไม่\nการกระทำ ให้หมายความรวมถึงการให้เกิดผลอันหนึ่งอันใดขึ้นโดยงดเว้นการที่จักต้องกระทำเพื่อป้องกันผลนั้นด้วย"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:280@1957-01-01",
+    "label": "280",
+    "interval": {
+      "effective_from": "1957-01-01",
+      "effective_to_exclusive": "1971-11-22",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "result_aggravation",
+    "thai_equation": "(【เป็นเหตุให้ผู้ถูกกระทำ】 และ (AND) (【รับอันตรายสาหัส】 หรือ (OR) 【ถึงแก่ความตาย】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:280@1957-01-01/element:caused_result"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:280@1957-01-01/element:serious_harm"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:280@1957-01-01/element:death"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:280@1957-01-01",
+        "start": 0,
+        "end": 339,
+        "quote": "มาตรา ๒๘๐ ถ้าการกระทำความผิดตามมาตรา ๒๗๖ มาตรา ๒๗๗ มาตรา ๒๗๘ หรือมาตรา ๒๗๙ เป็นเหตุให้ผู้ถูกกระทำ\n(๑) รับอันตรายสาหัส ผู้กระทำต้องระวางโทษจำคุกตั้งแต่สองปีถึงสิบห้าปี และปรับตั้งแต่สี่พันบาทถึงสามหมื่นบาท\n(๒) ถึงแก่ความตาย ผู้กระทำต้องระวางโทษจำคุกตลอดชีวิต หรือจำคุกตั้งแต่สิบสองปีถึงยี่สิบปี และปรับตั้งแต่สองหมื่นสี่พันบาทถึงสี่หมื่นบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:277 ทวิ@1971-11-22",
+    "label": "277 ทวิ",
+    "interval": {
+      "effective_from": "1971-11-22",
+      "effective_to_exclusive": "1982-08-07",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "result_aggravation",
+    "thai_equation": "(【เป็นเหตุให้ผู้ถูกกระทำ】 และ (AND) (【รับอันตรายสาหัส】 หรือ (OR) 【ถึงแก่ความตาย】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:277 ทวิ@1971-11-22/element:caused_result"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ทวิ@1971-11-22/element:serious_harm"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ทวิ@1971-11-22/element:death"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:277 ทวิ@1971-11-22",
+        "start": 0,
+        "end": 275,
+        "quote": "มาตรา ๒๗๗ ทวิ ถ้าการกระทำความผิดตามมาตรา ๒๗๖ วรรคแรก หรือมาตรา ๒๗๗ วรรคแรก เป็นเหตุให้ผู้ถูกกระทำ\n(๑) รับอันตรายสาหัส ผู้กระทำต้องระวางโทษจำคุกตั้งแต่สิบปีถึงยี่สิบปี และปรับตั้งแต่สองหมื่นบาทถึงสี่หมื่นบาท\n(๒) ถึงแก่ความตาย ผู้กระทำต้องระวางโทษประหารชีวิต หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:277 ตรี@1971-11-22",
+    "label": "277 ตรี",
+    "interval": {
+      "effective_from": "1971-11-22",
+      "effective_to_exclusive": "1982-08-07",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "result_aggravation",
+    "thai_equation": "(【เป็นเหตุให้ผู้ถูกกระทำ】 และ (AND) (【รับอันตรายสาหัส】 หรือ (OR) 【ถึงแก่ความตาย】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:277 ตรี@1971-11-22/element:caused_result"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ตรี@1971-11-22/element:serious_harm"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ตรี@1971-11-22/element:death"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:277 ตรี@1971-11-22",
+        "start": 0,
+        "end": 202,
+        "quote": "มาตรา ๒๗๗ ตรี ถ้าการกระทำความผิดตามมาตรา ๒๗๖ วรรคสอง หรือมาตรา ๒๗๗ วรรคสอง เป็นเหตุให้ผู้ถูกกระทำ\n(๑) รับอันตรายสาหัส ผู้กระทำต้องระวางโทษจำคุกตลอดชีวิต\n(๒) ถึงแก่ความตาย ผู้กระทำต้องระวางโทษประหารชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:280@1971-11-22",
+    "label": "280",
+    "interval": {
+      "effective_from": "1971-11-22",
+      "effective_to_exclusive": "1982-08-07",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "result_aggravation",
+    "thai_equation": "(【เป็นเหตุให้ผู้ถูกกระทำ】 และ (AND) (【รับอันตรายสาหัส】 หรือ (OR) 【ถึงแก่ความตาย】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:280@1971-11-22/element:caused_result"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:280@1971-11-22/element:serious_harm"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:280@1971-11-22/element:death"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:280@1971-11-22",
+        "start": 0,
+        "end": 241,
+        "quote": "มาตรา ๒๘๐ ถ้าการกระทำความผิดตามมาตรา ๒๗๘ หรือมาตรา ๒๗๙ เป็นเหตุให้ผู้ถูกกระทำ\n(๑) รับอันตรายสาหัส ผู้กระทำต้องระวางโทษจำคุกตั้งแต่ห้าปีถึงสิบห้าปี และปรับตั้งแต่หนึ่งหมื่นบาทถึงสามหมื่นบาท\n(๒) ถึงแก่ความตาย ผู้กระทำต้องระวางโทษจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:277 ทวิ@1982-08-07",
+    "label": "277 ทวิ",
+    "interval": {
+      "effective_from": "1982-08-07",
+      "effective_to_exclusive": "1987-09-02",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "result_aggravation",
+    "thai_equation": "(【เป็นเหตุให้ผู้ถูกกระทำ】 และ (AND) (【รับอันตรายสาหัส】 หรือ (OR) 【ถึงแก่ความตาย】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:277 ทวิ@1982-08-07/element:caused_result"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ทวิ@1982-08-07/element:serious_harm"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ทวิ@1982-08-07/element:death"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:277 ทวิ@1982-08-07",
+        "start": 0,
+        "end": 296,
+        "quote": "มาตรา ๒๗๗ ทวิ ถ้าการกระทำความผิดตามมาตรา ๒๗๖ วรรคแรกหรือมาตรา ๒๗๗ วรรคแรก เป็นเหตุให้ผู้ถูกกระทำ\n(๑) รับอันตรายสาหัส ผู้กระทำต้องระวางโทษจำคุกตั้งแต่สิบห้าปีถึงยี่สิบปี และปรับตั้งแต่สามหมื่นบาทถึงสี่หมื่นบาท หรือจำคุกตลอดชีวิต\n(๒) ถึงแก่ความตาย ผู้กระทำต้องระวางโทษประหารชีวิต หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:277 ตรี@1982-08-07",
+    "label": "277 ตรี",
+    "interval": {
+      "effective_from": "1982-08-07",
+      "effective_to_exclusive": "1987-09-02",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "result_aggravation",
+    "thai_equation": "(【เป็นเหตุให้ผู้ถูกกระทำ】 และ (AND) (【รับอันตรายสาหัส】 หรือ (OR) 【ถึงแก่ความตาย】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:277 ตรี@1982-08-07/element:caused_result"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ตรี@1982-08-07/element:serious_harm"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ตรี@1982-08-07/element:death"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:277 ตรี@1982-08-07",
+        "start": 0,
+        "end": 218,
+        "quote": "มาตรา ๒๗๗ ตรี ถ้าการกระทำความผิดตามมาตรา ๒๗๖ วรรคสอง หรือมาตรา ๒๗๗ วรรคสอง เป็นเหตุให้ผู้ถูกกระทำ\n(๑) รับอันตรายสาหัส ผู้กระทำต้องระวางโทษประหารชีวิต หรือจำคุกตลอดชีวิต\n(๒) ถึงแก่ความตาย ผู้กระทำต้องระวางโทษประหารชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:280@1982-08-07",
+    "label": "280",
+    "interval": {
+      "effective_from": "1982-08-07",
+      "effective_to_exclusive": "2017-03-21",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "result_aggravation",
+    "thai_equation": "(【เป็นเหตุให้ผู้ถูกกระทำ】 และ (AND) (【รับอันตรายสาหัส】 หรือ (OR) 【ถึงแก่ความตาย】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:280@1982-08-07/element:caused_result"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:280@1982-08-07/element:serious_harm"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:280@1982-08-07/element:death"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:280@1982-08-07",
+        "start": 0,
+        "end": 256,
+        "quote": "มาตรา ๒๘๐ ถ้าการกระทำความผิดตามมาตรา ๒๗๘ หรือมาตรา ๒๗๙ เป็นเหตุให้ผู้ถูกกระทำ\n(๑) รับอันตรายสาหัส ผู้กระทำต้องระวางโทษจำคุกตั้งแต่ห้าปีถึงยี่สิบปีและปรับตั้งแต่หนึ่งหมื่นบาทถึงสี่หมื่นบาท\n(๒) ถึงแก่ความตาย ผู้กระทำต้องระวางโทษประหารชีวิต หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:277 ทวิ@1987-09-02",
+    "label": "277 ทวิ",
+    "interval": {
+      "effective_from": "1987-09-02",
+      "effective_to_exclusive": "2007-09-20",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "result_aggravation",
+    "thai_equation": "(【เป็นเหตุให้ผู้ถูกกระทำ】 และ (AND) (【รับอันตรายสาหัส】 หรือ (OR) 【ถึงแก่ความตาย】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:277 ทวิ@1987-09-02/element:caused_result"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ทวิ@1987-09-02/element:serious_harm"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ทวิ@1987-09-02/element:death"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:277 ทวิ@1987-09-02",
+        "start": 0,
+        "end": 308,
+        "quote": "มาตรา ๒๗๗ ทวิ ถ้าการกระทำความผิดตามมาตรา ๒๗๖ วรรคแรก หรือมาตรา ๒๗๗ วรรคแรกหรือวรรคสอง เป็นเหตุให้ผู้ถูกกระทำ\n(๑) รับอันตรายสาหัส ผู้กระทำต้องระวางโทษจำคุกตั้งแต่สิบห้าปีถึงยี่สิบปี และปรับตั้งแต่สามหมื่นบาทถึงสี่หมื่นบาท หรือจำคุกตลอดชีวิต\n(๒) ถึงแก่ความตาย ผู้กระทำต้องระวางโทษประหารชีวิต หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:277 ตรี@1987-09-02",
+    "label": "277 ตรี",
+    "interval": {
+      "effective_from": "1987-09-02",
+      "effective_to_exclusive": "2007-09-20",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "result_aggravation",
+    "thai_equation": "(【เป็นเหตุให้ผู้ถูกกระทำ】 และ (AND) (【รับอันตรายสาหัส】 หรือ (OR) 【ถึงแก่ความตาย】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:277 ตรี@1987-09-02/element:caused_result"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ตรี@1987-09-02/element:serious_harm"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ตรี@1987-09-02/element:death"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:277 ตรี@1987-09-02",
+        "start": 0,
+        "end": 218,
+        "quote": "มาตรา ๒๗๗ ตรี ถ้าการกระทำความผิดตามมาตรา ๒๗๖ วรรคสอง หรือมาตรา ๒๗๗ วรรคสาม เป็นเหตุให้ผู้ถูกกระทำ\n(๑) รับอันตรายสาหัส ผู้กระทำต้องระวางโทษประหารชีวิต หรือจำคุกตลอดชีวิต\n(๒) ถึงแก่ความตาย ผู้กระทำต้องระวางโทษประหารชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:277 ทวิ@2007-09-20",
+    "label": "277 ทวิ",
+    "interval": {
+      "effective_from": "2007-09-20",
+      "effective_to_exclusive": "2017-03-21",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "result_aggravation",
+    "thai_equation": "(【เป็นเหตุให้ผู้ถูกกระทำ】 และ (AND) (【รับอันตรายสาหัส】 หรือ (OR) 【ถึงแก่ความตาย】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:277 ทวิ@2007-09-20/element:caused_result"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ทวิ@2007-09-20/element:serious_harm"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ทวิ@2007-09-20/element:death"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:277 ทวิ@2007-09-20",
+        "start": 0,
+        "end": 311,
+        "quote": "มาตรา ๒๗๗ ทวิ ถ้าการกระทำความผิดตามมาตรา ๒๗๖ วรรคหนึ่ง หรือมาตรา ๒๗๗ วรรคหนึ่งหรือวรรคสาม เป็นเหตุให้ผู้ถูกกระทำ\n(๑) รับอันตรายสาหัส ผู้กระทำต้องระวางโทษจำคุกตั้งแต่สิบห้าปีถึงยี่สิบปีและปรับตั้งแต่สามหมื่นบาทถึงสี่หมื่นบาท หรือจำคุกตลอดชีวิต\n(๒) ถึงแก่ความตาย ผู้กระทำต้องระวางโทษประหารชีวิต หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:277 ตรี@2007-09-20",
+    "label": "277 ตรี",
+    "interval": {
+      "effective_from": "2007-09-20",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "result_aggravation",
+    "thai_equation": "(【เป็นเหตุให้ผู้ถูกกระทำ】 และ (AND) (【รับอันตรายสาหัส】 หรือ (OR) 【ถึงแก่ความตาย】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:277 ตรี@2007-09-20/element:caused_result"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ตรี@2007-09-20/element:serious_harm"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ตรี@2007-09-20/element:death"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:277 ตรี@2007-09-20",
+        "start": 0,
+        "end": 218,
+        "quote": "มาตรา ๒๗๗ ตรี ถ้าการกระทำความผิดตามมาตรา ๒๗๖ วรรคสาม หรือมาตรา ๒๗๗ วรรคสี่ เป็นเหตุให้ผู้ถูกกระทำ\n(๑) รับอันตรายสาหัส ผู้กระทำต้องระวางโทษประหารชีวิต หรือจำคุกตลอดชีวิต\n(๒) ถึงแก่ความตาย ผู้กระทำต้องระวางโทษประหารชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:277 ทวิ@2017-03-21",
+    "label": "277 ทวิ",
+    "interval": {
+      "effective_from": "2017-03-21",
+      "effective_to_exclusive": "2019-05-28",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "result_aggravation",
+    "thai_equation": "(【เป็นเหตุให้ผู้ถูกกระทำ】 และ (AND) (【รับอันตรายสาหัส】 หรือ (OR) 【ถึงแก่ความตาย】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:277 ทวิ@2017-03-21/element:caused_result"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ทวิ@2017-03-21/element:serious_harm"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ทวิ@2017-03-21/element:death"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:277 ทวิ@2017-03-21",
+        "start": 0,
+        "end": 309,
+        "quote": "มาตรา ๒๗๗ ทวิ ถ้าการกระทำความผิดตามมาตรา ๒๗๖ วรรคหนึ่ง หรือมาตรา ๒๗๗ วรรคหนึ่งหรือวรรคสาม เป็นเหตุให้ผู้ถูกกระทำ\n(๑) รับอันตรายสาหัส ผู้กระทำต้องระวางโทษ จำคุกตั้งแต่สิบห้าปีถึงยี่สิบปี และปรับตั้งแต่สามแสนบาทถึงสี่แสนบาท หรือจำคุกตลอดชีวิต\n(๒) ถึงแก่ความตาย ผู้กระทำต้องระวางโทษประหารชีวิต หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:280@2017-03-21",
+    "label": "280",
+    "interval": {
+      "effective_from": "2017-03-21",
+      "effective_to_exclusive": "2019-05-28",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "result_aggravation",
+    "thai_equation": "(【เป็นเหตุให้ผู้ถูกกระทำ】 และ (AND) (【รับอันตรายสาหัส】 หรือ (OR) 【ถึงแก่ความตาย】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:280@2017-03-21/element:caused_result"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:280@2017-03-21/element:serious_harm"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:280@2017-03-21/element:death"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:280@2017-03-21",
+        "start": 0,
+        "end": 254,
+        "quote": "มาตรา ๒๘๐ ถ้าการกระทำความผิดตามมาตรา ๒๗๘ หรือมาตรา ๒๗๙ เป็นเหตุให้ผู้ถูกกระทำ\n(๑) รับอันตรายสาหัส ผู้กระทำต้องระวางโทษ จำคุกตั้งแต่ห้าปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนบาทถึงสี่แสนบาท\n(๒) ถึงแก่ความตาย ผู้กระทำต้องระวางโทษประหารชีวิต หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:1(18)@2019-05-28",
+    "label": "1(18)",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": "2025-12-30",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": null,
+    "thai_equation": "(【เพื่อสนองความใคร่ของผู้กระทำ】 และ (AND) 【การใช้อวัยวะเพศของผู้กระทำล่วงล้ำอวัยวะเพศ ทวารหนัก หรือช่องปากของผู้อื่น】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:1(18)@2019-05-28/element:sexual_purpose"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:1(18)@2019-05-28/element:actor_genital_route"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:1(18)@2019-05-28",
+        "start": 0,
+        "end": 140,
+        "quote": "(๑๘) “กระทำชำเรา” หมายความว่า กระทำเพื่อสนองความใคร่ของผู้กระทำ โดยการใช้อวัยวะเพศของผู้กระทำล่วงล้ำอวัยวะเพศ ทวารหนัก หรือช่องปากของผู้อื่น"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:277 ทวิ@2019-05-28",
+    "label": "277 ทวิ",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "result_aggravation",
+    "thai_equation": "(【เป็นเหตุให้ผู้ถูกกระทำ】 และ (AND) (【รับอันตรายสาหัส】 หรือ (OR) 【ถึงแก่ความตาย】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:277 ทวิ@2019-05-28/element:caused_result"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ทวิ@2019-05-28/element:serious_harm"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:277 ทวิ@2019-05-28/element:death"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:277 ทวิ@2019-05-28",
+        "start": 0,
+        "end": 308,
+        "quote": "มาตรา ๒๗๗ ทวิ ถ้าการกระทำความผิดตามมาตรา ๒๗๖ วรรคหนึ่ง หรือมาตรา ๒๗๗ วรรคหนึ่งหรือวรรคสอง เป็นเหตุให้ผู้ถูกกระทำ\n(๑) รับอันตรายสาหัส ผู้กระทำต้องระวางโทษจำคุกตั้งแต่สิบห้าปีถึงยี่สิบปี และปรับตั้งแต่สามแสนบาทถึงสี่แสนบาท หรือจำคุกตลอดชีวิต\n(๒) ถึงแก่ความตาย ผู้กระทำต้องระวางโทษประหารชีวิต หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:280@2019-05-28",
+    "label": "280",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "result_aggravation",
+    "thai_equation": "(【เป็นเหตุให้ผู้ถูกกระทำ】 และ (AND) (【รับอันตรายสาหัส】 หรือ (OR) 【ถึงแก่ความตาย】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:280@2019-05-28/element:caused_result"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:280@2019-05-28/element:serious_harm"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:280@2019-05-28/element:death"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:280@2019-05-28",
+        "start": 0,
+        "end": 272,
+        "quote": "มาตรา ๒๘๐ ถ้าการกระทำความผิดตามมาตรา ๒๗๘ หรือมาตรา ๒๗๙ เป็นเหตุให้ผู้ถูกกระทำ\n(๑) รับอันตรายสาหัส ผู้กระทำต้องระวางโทษจำคุกตั้งแต่ห้าปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนบาทถึงสี่แสนบาท หรือจำคุกตลอดชีวิต\n(๒) ถึงแก่ความตาย ผู้กระทำต้องระวางโทษประหารชีวิต หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:dependency:1(18)@2025-12-30",
+    "label": "1(18)",
+    "interval": {
+      "effective_from": "2025-12-30",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": null,
+    "thai_equation": "(【เพื่อสนองความใคร่ของผู้กระทำ】 และ (AND) (【การใช้อวัยวะเพศของผู้กระทำล่วงล้ำอวัยวะเพศ ทวารหนัก หรือช่องปากของผู้อื่น】 หรือ (OR) 【การใช้อวัยวะอื่นของผู้กระทำหรือวัตถุล่วงล้ำอวัยวะเพศหรือทวารหนักของผู้อื่น】 หรือ (OR) (【การให้ผู้อื่นกระทำกับผู้กระทำในลักษณะเดียวกัน】 และ (AND) ไม่ใช่ (【แต่การให้ผู้อื่นกระทำการดังกล่าวนั้นไม่รวมถึงกรณีที่ผู้อื่นใช้อวัยวะอื่นหรือวัตถุล่วงล้ำอวัยวะเพศหรือทวารหนักของผู้กระทำ】))))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:dependency:1(18)@2025-12-30/element:sexual_purpose"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:1(18)@2025-12-30/element:actor_genital_route"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:dependency:1(18)@2025-12-30/element:other_body_object_intrusion"
+            },
+            {
+              "op": "AND",
+              "children": [
+                {
+                  "op": "LEAF",
+                  "node_id": "th-criminal:dependency:1(18)@2025-12-30/element:reverse_direction"
+                },
+                {
+                  "op": "NOT",
+                  "child": {
+                    "op": "LEAF",
+                    "node_id": "th-criminal:dependency:1(18)@2025-12-30/element:reverse_route_exclusion"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:dependency:1(18)@2025-12-30",
+        "start": 0,
+        "end": 447,
+        "quote": "(๑๘) “กระทำชำเรา” หมายความว่า กระทำเพื่อสนองความใคร่ของผู้กระทำ โดยการใช้อวัยวะเพศของผู้กระทำล่วงล้ำอวัยวะเพศ ทวารหนัก หรือช่องปากของผู้อื่น หรือการใช้อวัยวะอื่นของผู้กระทำหรือวัตถุล่วงล้ำอวัยวะเพศหรือทวารหนักของผู้อื่น หรือการให้ผู้อื่นกระทำกับผู้กระทำในลักษณะเดียวกัน แต่การให้ผู้อื่นกระทำการดังกล่าวนั้นไม่รวมถึงกรณีที่ผู้อื่นใช้อวัยวะอื่นหรือวัตถุล่วงล้ำอวัยวะเพศหรือทวารหนักของผู้กระทำ ทั้งนี้ อวัยวะเพศให้หมายความรวมถึงอวัยวะเพศจากการผ่าตัด\n"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@1957-01-01/p1",
+    "label": "276 วรรค 1",
+    "interval": {
+      "effective_from": "1957-01-01",
+      "effective_to_exclusive": "1971-11-22",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【ข่มขืนกระทำชำเรา】 และ (AND) 【หญิง】 และ (AND) 【ซึ่งมิใช่ภริยาของตน】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【หญิงอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้หญิงเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@1957-01-01/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@1957-01-01/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@1957-01-01/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@1957-01-01/p1/element:spouse_exclusion"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@1957-01-01/p1/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@1957-01-01/p1/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@1957-01-01/p1/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@1957-01-01/p1/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@1957-01-01/p1",
+        "start": 0,
+        "end": 262,
+        "quote": "มาตรา ๒๗๖ ผู้ใดข่มขืนกระทำชำเราหญิง ซึ่งมิใช่ภริยาของตนโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยหญิงอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้หญิงเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกตั้งแต่หนึ่งปีถึงสิบปี และปรับตั้งแต่สองพันบาทถึงสองหมื่นบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@1957-01-01/p1",
+    "label": "277 วรรค 1",
+    "interval": {
+      "effective_from": "1957-01-01",
+      "effective_to_exclusive": "1971-11-22",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำชำเรา】 และ (AND) 【เด็กหญิง】 และ (AND) 【อายุยังไม่เกินสิบสามปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1957-01-01/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1957-01-01/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1957-01-01/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1957-01-01/p1/element:age_0"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@1957-01-01/p1",
+        "start": 0,
+        "end": 176,
+        "quote": "มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กหญิงอายุยังไม่เกินสิบสามปี โดยเด็กหญิงนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่สองปีถึงสิบสองปี และปรับตั้งแต่สี่พันบาทถึงสองหมื่นสี่พันบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:278@1957-01-01/p1",
+    "label": "278 วรรค 1",
+    "interval": {
+      "effective_from": "1957-01-01",
+      "effective_to_exclusive": "1971-11-22",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำอนาจาร】 และ (AND) 【บุคคล】 และ (AND) 【อายุกว่าสิบสามปี】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【บุคคลนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้บุคคลนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@1957-01-01/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@1957-01-01/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@1957-01-01/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@1957-01-01/p1/element:age_3"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@1957-01-01/p1/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@1957-01-01/p1/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@1957-01-01/p1/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@1957-01-01/p1/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:278@1957-01-01/p1",
+        "start": 0,
+        "end": 261,
+        "quote": "มาตรา ๒๗๘ ผู้ใดกระทำอนาจารแก่บุคคลอายุกว่าสิบสามปีโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้ายโดยบุคคลนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้บุคคลนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกไม่เกินสามปี หรือปรับไม่เกินหกพันบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@1957-01-01/p1",
+    "label": "279 วรรค 1",
+    "interval": {
+      "effective_from": "1957-01-01",
+      "effective_to_exclusive": "1971-11-22",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำอนาจาร】 และ (AND) 【เด็ก】 และ (AND) 【อายุยังไม่เกินสิบสามปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@1957-01-01/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@1957-01-01/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@1957-01-01/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@1957-01-01/p1/element:age_0"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@1957-01-01/p1",
+        "start": 0,
+        "end": 160,
+        "quote": "มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบสามปี โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกไม่เกินสามปี หรือปรับไม่เกินหกพันบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@1957-01-01/p2",
+    "label": "279 วรรค 2",
+    "interval": {
+      "effective_from": "1957-01-01",
+      "effective_to_exclusive": "1971-11-22",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบสามปี โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกไม่เกินสามปี หรือปรับไม่เกินหกพันบาท หรือทั้งจำทั้งปรับ】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【เด็กนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้เด็กนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:279@1957-01-01/p1"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@1957-01-01/p2/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@1957-01-01/p2/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@1957-01-01/p2/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@1957-01-01/p2/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@1957-01-01/p2",
+        "start": 0,
+        "end": 261,
+        "quote": "ถ้าในการกระทำความผิดตามวรรคแรก ผู้กระทำได้กระทำโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้ายโดยเด็กนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้เด็กนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกไม่เกินห้าปี หรือปรับไม่เกินหนึ่งหมื่นบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@1971-11-22/p1",
+    "label": "276 วรรค 1",
+    "interval": {
+      "effective_from": "1971-11-22",
+      "effective_to_exclusive": "1982-08-07",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【ข่มขืนกระทำชำเรา】 และ (AND) 【หญิง】 และ (AND) 【ซึ่งมิใช่ภริยาของตน】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【หญิงอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้หญิงเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@1971-11-22/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@1971-11-22/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@1971-11-22/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@1971-11-22/p1/element:spouse_exclusion"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@1971-11-22/p1/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@1971-11-22/p1/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@1971-11-22/p1/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@1971-11-22/p1/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@1971-11-22/p1",
+        "start": 0,
+        "end": 261,
+        "quote": "มาตรา ๒๗๖ ผู้ใดข่มขืนกระทำชำเราหญิงซึ่งมิใช่ภริยาของตนโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยหญิงอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้หญิงเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกตั้งแต่หนึ่งปีถึงสิบปี และปรับตั้งแต่สองพันบาทถึงสองหมื่นบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@1971-11-22/p2",
+    "label": "276 วรรค 2",
+    "interval": {
+      "effective_from": "1971-11-22",
+      "effective_to_exclusive": "1982-08-07",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๖ ผู้ใดข่มขืนกระทำชำเราหญิงซึ่งมิใช่ภริยาของตนโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยหญิงอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้หญิงเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกตั้งแต่หนึ่งปีถึงสิบปี และปรับตั้งแต่สองพันบาทถึงสองหมื่นบาท】 และ (AND) (【มีหรือใช้อาวุธปืนหรือวัตถุระเบิด】 หรือ (OR) 【ร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมหญิง】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:276@1971-11-22/p1"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@1971-11-22/p2/element:firearm_explosive_have_use"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@1971-11-22/p2/element:joint_gang_conduct"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@1971-11-22/p2",
+        "start": 0,
+        "end": 187,
+        "quote": "ถ้าการกระทำความผิดตามวรรคแรกได้กระทำโดยมีหรือใช้อาวุธปืนหรือวัตถุระเบิด หรือโดยร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมหญิง ต้องระวางโทษจำคุกตลอดชีวิตหรือจำคุกตั้งแต่สิบปีถึงยี่สิบปี"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@1971-11-22/p1",
+    "label": "277 วรรค 1",
+    "interval": {
+      "effective_from": "1971-11-22",
+      "effective_to_exclusive": "1982-08-07",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำชำเรา】 และ (AND) 【เด็กหญิง】 และ (AND) 【อายุยังไม่เกินสิบสามปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1971-11-22/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1971-11-22/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1971-11-22/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1971-11-22/p1/element:age_0"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@1971-11-22/p1",
+        "start": 0,
+        "end": 176,
+        "quote": "มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กหญิงอายุยังไม่เกินสิบสามปี โดยเด็กหญิงนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่สองปีถึงสิบสองปี และปรับตั้งแต่สี่พันบาทถึงสองหมื่นสี่พันบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@1971-11-22/p2",
+    "label": "277 วรรค 2",
+    "interval": {
+      "effective_from": "1971-11-22",
+      "effective_to_exclusive": "1982-08-07",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กหญิงอายุยังไม่เกินสิบสามปี โดยเด็กหญิงนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่สองปีถึงสิบสองปี และปรับตั้งแต่สี่พันบาทถึงสองหมื่นสี่พันบาท】 และ (AND) (【มีหรือใช้อาวุธปืนหรือวัตถุระเบิด】 หรือ (OR) (【ร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมเด็กหญิง】 และ (AND) 【และเด็กหญิงนั้นไม่ยินยอม】)))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:277@1971-11-22/p1"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:277@1971-11-22/p2/element:firearm_explosive_have_use"
+            },
+            {
+              "op": "AND",
+              "children": [
+                {
+                  "op": "LEAF",
+                  "node_id": "th-criminal:277@1971-11-22/p2/element:joint_gang_conduct"
+                },
+                {
+                  "op": "LEAF",
+                  "node_id": "th-criminal:277@1971-11-22/p2/element:gang_nonconsent"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@1971-11-22/p2",
+        "start": 0,
+        "end": 227,
+        "quote": "ถ้าการกระทำความผิดตามวรรคแรกได้กระทำโดยร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมเด็กหญิงและเด็กหญิงนั้นไม่ยินยอม หรือได้กระทำโดยมีหรือใช้อาวุธปืนหรือวัตถุระเบิด ต้องระวางโทษจำคุกตลอดชีวิต หรือจำคุกตั้งแต่สิบห้าปีถึงยี่สิบปี"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:278@1971-11-22/p1",
+    "label": "278 วรรค 1",
+    "interval": {
+      "effective_from": "1971-11-22",
+      "effective_to_exclusive": "1982-08-07",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำอนาจาร】 และ (AND) 【บุคคล】 และ (AND) 【อายุกว่าสิบสามปี】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【บุคคลนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้บุคคลนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@1971-11-22/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@1971-11-22/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@1971-11-22/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@1971-11-22/p1/element:age_3"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@1971-11-22/p1/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@1971-11-22/p1/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@1971-11-22/p1/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@1971-11-22/p1/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:278@1971-11-22/p1",
+        "start": 0,
+        "end": 274,
+        "quote": "มาตรา ๒๗๘ ผู้ใดกระทำอนาจารแก่บุคคลอายุกว่าสิบสามปี โดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้ายโดยบุคคลนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้บุคคลนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกไม่เกินเจ็ดปี หรือปรับไม่เกินหนึ่งหมื่นสี่พันบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@1971-11-22/p1",
+    "label": "279 วรรค 1",
+    "interval": {
+      "effective_from": "1971-11-22",
+      "effective_to_exclusive": "1982-08-07",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำอนาจาร】 และ (AND) 【เด็ก】 และ (AND) 【อายุยังไม่เกินสิบสามปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@1971-11-22/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@1971-11-22/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@1971-11-22/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@1971-11-22/p1/element:age_0"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@1971-11-22/p1",
+        "start": 0,
+        "end": 172,
+        "quote": "มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบสามปี โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกไม่เกินเจ็ดปี หรือปรับไม่เกินหนึ่งหมื่นสี่พันบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@1971-11-22/p2",
+    "label": "279 วรรค 2",
+    "interval": {
+      "effective_from": "1971-11-22",
+      "effective_to_exclusive": "1982-08-07",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบสามปี โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกไม่เกินเจ็ดปี หรือปรับไม่เกินหนึ่งหมื่นสี่พันบาท หรือทั้งจำทั้งปรับ】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【เด็กนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้เด็กนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:279@1971-11-22/p1"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@1971-11-22/p2/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@1971-11-22/p2/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@1971-11-22/p2/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@1971-11-22/p2/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@1971-11-22/p2",
+        "start": 0,
+        "end": 260,
+        "quote": "ถ้าในการกระทำความผิดตามวรรคแรก ผู้กระทำได้กระทำโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยเด็กนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้เด็กนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกไม่เกินสิบปี หรือปรับไม่เกินสองหมื่นบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@1982-08-07/p1",
+    "label": "276 วรรค 1",
+    "interval": {
+      "effective_from": "1982-08-07",
+      "effective_to_exclusive": "2007-09-20",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【ข่มขืนกระทำชำเรา】 และ (AND) 【หญิง】 และ (AND) 【ซึ่งมิใช่ภริยาของตน】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【หญิงอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้หญิงเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@1982-08-07/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@1982-08-07/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@1982-08-07/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@1982-08-07/p1/element:spouse_exclusion"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@1982-08-07/p1/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@1982-08-07/p1/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@1982-08-07/p1/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@1982-08-07/p1/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@1982-08-07/p1",
+        "start": 0,
+        "end": 261,
+        "quote": "มาตรา ๒๗๖ ผู้ใดข่มขืนกระทำชำเราหญิงซึ่งมิใช่ภริยาของตนโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยหญิงอยู่ในภาวะที่ไม่สามารถขัดขืนได้หรือโดยทำให้หญิงเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดพันบาทถึงสี่หมื่นบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@1982-08-07/p2",
+    "label": "276 วรรค 2",
+    "interval": {
+      "effective_from": "1982-08-07",
+      "effective_to_exclusive": "2007-09-20",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๖ ผู้ใดข่มขืนกระทำชำเราหญิงซึ่งมิใช่ภริยาของตนโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยหญิงอยู่ในภาวะที่ไม่สามารถขัดขืนได้หรือโดยทำให้หญิงเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดพันบาทถึงสี่หมื่นบาท】 และ (AND) (【มีหรือใช้อาวุธปืนหรือวัตถุระเบิด】 หรือ (OR) 【ร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมหญิง】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:276@1982-08-07/p1"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@1982-08-07/p2/element:firearm_explosive_have_use"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@1982-08-07/p2/element:joint_gang_conduct"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@1982-08-07/p2",
+        "start": 0,
+        "end": 231,
+        "quote": "ถ้าการกระทำความผิดตามวรรคแรกได้กระทำโดยมีหรือใช้อาวุธปืนหรือวัตถุระเบิด หรือโดยร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมหญิง ต้องระวางโทษจำคุกตั้งแต่สิบห้าปีถึงยี่สิบปี และปรับตั้งแต่สามหมื่นบาทถึงสี่หมื่นบาท หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@1982-08-07/p1",
+    "label": "277 วรรค 1",
+    "interval": {
+      "effective_from": "1982-08-07",
+      "effective_to_exclusive": "1987-09-02",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำชำเรา】 และ (AND) 【เด็กหญิง】 และ (AND) 【อายุยังไม่เกินสิบสามปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1982-08-07/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1982-08-07/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1982-08-07/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1982-08-07/p1/element:age_0"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@1982-08-07/p1",
+        "start": 0,
+        "end": 200,
+        "quote": "มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กหญิงอายุยังไม่เกินสิบสามปี โดยเด็กหญิงนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่เจ็ดปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งหมื่นสี่พันบาทถึงสี่หมื่นบาท หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@1982-08-07/p2",
+    "label": "277 วรรค 2",
+    "interval": {
+      "effective_from": "1982-08-07",
+      "effective_to_exclusive": "1987-09-02",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กหญิงอายุยังไม่เกินสิบสามปี โดยเด็กหญิงนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่เจ็ดปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งหมื่นสี่พันบาทถึงสี่หมื่นบาท หรือจำคุกตลอดชีวิต】 และ (AND) (【มีหรือใช้อาวุธปืนหรือวัตถุระเบิด】 หรือ (OR) (【ร่วมกระทำความผิดด้วยกัน อันมีลักษณะเป็นการโทรมเด็กหญิง】 และ (AND) 【และเด็กหญิงนั้นไม่ยินยอม】)))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:277@1982-08-07/p1"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:277@1982-08-07/p2/element:firearm_explosive_have_use"
+            },
+            {
+              "op": "AND",
+              "children": [
+                {
+                  "op": "LEAF",
+                  "node_id": "th-criminal:277@1982-08-07/p2/element:joint_gang_conduct"
+                },
+                {
+                  "op": "LEAF",
+                  "node_id": "th-criminal:277@1982-08-07/p2/element:gang_nonconsent"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@1982-08-07/p2",
+        "start": 0,
+        "end": 192,
+        "quote": "ถ้าการกระทำความผิดตามวรรคแรกได้กระทำโดยร่วมกระทำความผิดด้วยกัน อันมีลักษณะเป็นการโทรมเด็กหญิงและเด็กหญิงนั้นไม่ยินยอม หรือได้กระทำโดยมีหรือใช้อาวุธปืนหรือวัตถุระเบิด ต้องระวางโทษจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:278@1982-08-07/p1",
+    "label": "278 วรรค 1",
+    "interval": {
+      "effective_from": "1982-08-07",
+      "effective_to_exclusive": "1987-09-02",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำอนาจาร】 และ (AND) 【บุคคล】 และ (AND) 【อายุกว่าสิบสามปี】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【บุคคลนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้บุคคลนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@1982-08-07/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@1982-08-07/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@1982-08-07/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@1982-08-07/p1/element:age_3"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@1982-08-07/p1/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@1982-08-07/p1/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@1982-08-07/p1/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@1982-08-07/p1/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:278@1982-08-07/p1",
+        "start": 0,
+        "end": 266,
+        "quote": "มาตรา ๒๗๘ ผู้ใดกระทำอนาจารแก่บุคคลอายุกว่าสิบสามปี โดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยบุคคลนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้บุคคลนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกไม่เกินสิบปี หรือปรับไม่เกินสองหมื่นบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@1982-08-07/p1",
+    "label": "279 วรรค 1",
+    "interval": {
+      "effective_from": "1982-08-07",
+      "effective_to_exclusive": "1987-09-02",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำอนาจาร】 และ (AND) 【เด็ก】 และ (AND) 【อายุยังไม่เกินสิบสามปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@1982-08-07/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@1982-08-07/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@1982-08-07/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@1982-08-07/p1/element:age_0"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@1982-08-07/p1",
+        "start": 0,
+        "end": 163,
+        "quote": "มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบสามปี โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกไม่เกินสิบปี หรือปรับไม่เกินสองหมื่นบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@1982-08-07/p2",
+    "label": "279 วรรค 2",
+    "interval": {
+      "effective_from": "1982-08-07",
+      "effective_to_exclusive": "1987-09-02",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบสามปี โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกไม่เกินสิบปี หรือปรับไม่เกินสองหมื่นบาท หรือทั้งจำทั้งปรับ】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【เด็กนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้เด็กนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:279@1982-08-07/p1"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@1982-08-07/p2/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@1982-08-07/p2/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@1982-08-07/p2/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@1982-08-07/p2/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@1982-08-07/p2",
+        "start": 0,
+        "end": 261,
+        "quote": "ถ้าการกระทำความผิดตามวรรคแรก ผู้กระทำได้กระทำโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยเด็กนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้เด็กนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกไม่เกินสิบห้าปี หรือปรับไม่เกินสามหมื่นบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@1987-09-02/p1",
+    "label": "277 วรรค 1",
+    "interval": {
+      "effective_from": "1987-09-02",
+      "effective_to_exclusive": "2007-09-20",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำชำเรา】 และ (AND) 【เด็กหญิง】 และ (AND) 【อายุยังไม่เกินสิบห้าปี】 และ (AND) 【ซึ่งมิใช่ภริยาของตน】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1987-09-02/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1987-09-02/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1987-09-02/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1987-09-02/p1/element:age_2"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1987-09-02/p1/element:spouse_exclusion"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@1987-09-02/p1",
+        "start": 0,
+        "end": 190,
+        "quote": "มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กหญิงอายุยังไม่เกินสิบห้าปี ซึ่งมิใช่ภริยาของตน โดยเด็กหญิงนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดพันบาทถึงสี่หมื่นบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@1987-09-02/p2",
+    "label": "277 วรรค 2",
+    "interval": {
+      "effective_from": "1987-09-02",
+      "effective_to_exclusive": "2007-09-20",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กหญิงอายุยังไม่เกินสิบห้าปี ซึ่งมิใช่ภริยาของตน โดยเด็กหญิงนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดพันบาทถึงสี่หมื่นบาท】 และ (AND) 【อายุยังไม่เกินสิบสามปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:277@1987-09-02/p1"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1987-09-02/p2/element:age_0"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@1987-09-02/p2",
+        "start": 0,
+        "end": 182,
+        "quote": "ถ้าการกระทำความผิดตามวรรคแรกเป็นการกระทำแก่เด็กหญิงอายุยังไม่เกินสิบสามปี ต้องระวางโทษจำคุกตั้งแต่เจ็ดปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งหมื่นสี่พันบาทถึงสี่หมื่นบาท หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@1987-09-02/p3",
+    "label": "277 วรรค 3",
+    "interval": {
+      "effective_from": "1987-09-02",
+      "effective_to_exclusive": "2007-09-20",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "((อ้างอิง: 【มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กหญิงอายุยังไม่เกินสิบห้าปี ซึ่งมิใช่ภริยาของตน โดยเด็กหญิงนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดพันบาทถึงสี่หมื่นบาท】 หรือ (OR) อ้างอิง: 【ถ้าการกระทำความผิดตามวรรคแรกเป็นการกระทำแก่เด็กหญิงอายุยังไม่เกินสิบสามปี ต้องระวางโทษจำคุกตั้งแต่เจ็ดปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งหมื่นสี่พันบาทถึงสี่หมื่นบาท หรือจำคุกตลอดชีวิต】) และ (AND) (【มีอาวุธปืนหรือวัตถุระเบิด】 หรือ (OR) 【โดยใช้อาวุธ】 หรือ (OR) (【ร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมเด็กหญิง】 และ (AND) 【และเด็กหญิงนั้นไม่ยินยอม】)))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "REF",
+              "node_id": "th-criminal:277@1987-09-02/p1"
+            },
+            {
+              "op": "REF",
+              "node_id": "th-criminal:277@1987-09-02/p2"
+            }
+          ]
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:277@1987-09-02/p3/element:firearm_explosive_have"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:277@1987-09-02/p3/element:weapon_use"
+            },
+            {
+              "op": "AND",
+              "children": [
+                {
+                  "op": "LEAF",
+                  "node_id": "th-criminal:277@1987-09-02/p3/element:joint_gang_conduct"
+                },
+                {
+                  "op": "LEAF",
+                  "node_id": "th-criminal:277@1987-09-02/p3/element:gang_nonconsent"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@1987-09-02/p3",
+        "start": 0,
+        "end": 211,
+        "quote": "ถ้าการกระทำความผิดตามวรรคแรกหรือวรรคสองได้กระทำโดยร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมเด็กหญิงและเด็กหญิงนั้นไม่ยินยอม หรือได้กระทำโดยมีอาวุธปืนหรือวัตถุระเบิด หรือโดยใช้อาวุธ ต้องระวางโทษจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@1987-09-02/p4",
+    "label": "277 วรรค 4",
+    "interval": {
+      "effective_from": "1987-09-02",
+      "effective_to_exclusive": "2007-09-20",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "relief_exception",
+    "thai_equation": "(【อายุกว่าสิบสามปี】 และ (AND) 【แต่ยังไม่เกินสิบห้าปี】 และ (AND) 【เด็กหญิงนั้นยินยอม】 และ (AND) 【ชายกระทำกับเด็กหญิง】 และ (AND) 【ความผิดตามที่บัญญัติไว้ในวรรคแรก ถ้าเป็นการกระทำที่ชายกระทำกับเด็กหญิงอายุกว่าสิบสามปีแต่ยังไม่เกินสิบห้าปี โดยเด็กหญิงนั้นยินยอมและภายหลังศาลอนุญาตให้ชายและเด็กหญิงนั้นสมรสกัน ผู้กระทำผิดไม่ต้องรับโทษ ถ้าศาลอนุญาตให้สมรสในระหว่างที่ผู้กระทำผิดกำลังรับโทษในความผิดนั้นอยู่ ให้ศาลปล่อยผู้กระทำความผิดนั้นไป】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1987-09-02/p4/element:age_3"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1987-09-02/p4/element:age_6"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1987-09-02/p4/element:consent"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1987-09-02/p4/element:male_actor_female_child"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@1987-09-02/p4/element:court_relief_rule"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@1987-09-02/p4",
+        "start": 0,
+        "end": 305,
+        "quote": "ความผิดตามที่บัญญัติไว้ในวรรคแรก ถ้าเป็นการกระทำที่ชายกระทำกับเด็กหญิงอายุกว่าสิบสามปีแต่ยังไม่เกินสิบห้าปี โดยเด็กหญิงนั้นยินยอมและภายหลังศาลอนุญาตให้ชายและเด็กหญิงนั้นสมรสกัน ผู้กระทำผิดไม่ต้องรับโทษ ถ้าศาลอนุญาตให้สมรสในระหว่างที่ผู้กระทำผิดกำลังรับโทษในความผิดนั้นอยู่ ให้ศาลปล่อยผู้กระทำความผิดนั้นไป"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:278@1987-09-02/p1",
+    "label": "278 วรรค 1",
+    "interval": {
+      "effective_from": "1987-09-02",
+      "effective_to_exclusive": "2017-03-21",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำอนาจาร】 และ (AND) 【บุคคล】 และ (AND) 【อายุกว่าสิบห้าปี】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【บุคคลนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้บุคคลนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@1987-09-02/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@1987-09-02/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@1987-09-02/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@1987-09-02/p1/element:age_4"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@1987-09-02/p1/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@1987-09-02/p1/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@1987-09-02/p1/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@1987-09-02/p1/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:278@1987-09-02/p1",
+        "start": 0,
+        "end": 265,
+        "quote": "มาตรา ๒๗๘ ผู้ใดกระทำอนาจารแก่บุคคลอายุกว่าสิบห้าปีโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยบุคคลนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้บุคคลนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกไม่เกินสิบปี หรือปรับไม่เกินสองหมื่นบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@1987-09-02/p1",
+    "label": "279 วรรค 1",
+    "interval": {
+      "effective_from": "1987-09-02",
+      "effective_to_exclusive": "2017-03-21",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำอนาจาร】 และ (AND) 【เด็ก】 และ (AND) 【อายุยังไม่เกินสิบห้าปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@1987-09-02/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@1987-09-02/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@1987-09-02/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@1987-09-02/p1/element:age_2"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@1987-09-02/p1",
+        "start": 0,
+        "end": 162,
+        "quote": "มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบห้าปีโดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกไม่เกินสิบปี หรือปรับไม่เกินสองหมื่นบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@1987-09-02/p2",
+    "label": "279 วรรค 2",
+    "interval": {
+      "effective_from": "1987-09-02",
+      "effective_to_exclusive": "2017-03-21",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบห้าปีโดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกไม่เกินสิบปี หรือปรับไม่เกินสองหมื่นบาท หรือทั้งจำทั้งปรับ】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【เด็กนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้เด็กนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:279@1987-09-02/p1"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@1987-09-02/p2/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@1987-09-02/p2/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@1987-09-02/p2/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@1987-09-02/p2/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@1987-09-02/p2",
+        "start": 0,
+        "end": 261,
+        "quote": "ถ้าการกระทำความผิดตามวรรคแรก ผู้กระทำได้กระทำโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยเด็กนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้เด็กนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกไม่เกินสิบห้าปี หรือปรับไม่เกินสามหมื่นบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@2007-09-20/p1",
+    "label": "276 วรรค 1",
+    "interval": {
+      "effective_from": "2007-09-20",
+      "effective_to_exclusive": "2017-03-21",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【ข่มขืนกระทำชำเรา】 และ (AND) 【ผู้อื่น】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【ผู้อื่นนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้ผู้อื่นนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@2007-09-20/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@2007-09-20/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@2007-09-20/p1/element:object_person"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2007-09-20/p1/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2007-09-20/p1/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2007-09-20/p1/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2007-09-20/p1/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@2007-09-20/p1",
+        "start": 0,
+        "end": 259,
+        "quote": "มาตรา ๒๗๖ ผู้ใดข่มขืนกระทำชำเราผู้อื่นโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้ายโดยผู้อื่นนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้ผู้อื่นนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดพันบาทถึงสี่หมื่นบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@2007-09-20/p2",
+    "label": "276 วรรค 2",
+    "interval": {
+      "effective_from": "2007-09-20",
+      "effective_to_exclusive": "2017-03-21",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "definition",
+    "thai_equation": "(【เพื่อสนองความใคร่ของผู้กระทำ】 และ (AND) (【การใช้อวัยวะเพศของผู้กระทำกระทำกับอวัยวะเพศ ทวารหนัก หรือช่องปากของผู้อื่น】 หรือ (OR) 【การใช้สิ่งอื่นใดกระทำกับอวัยวะเพศหรือทวารหนักของผู้อื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@2007-09-20/p2/element:sexual_purpose"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2007-09-20/p2/element:actor_genital_route"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2007-09-20/p2/element:other_object_route"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@2007-09-20/p2",
+        "start": 0,
+        "end": 210,
+        "quote": "การกระทำชำเราตามวรรคหนึ่ง หมายความว่าการกระทำเพื่อสนองความใคร่ของผู้กระทำโดยการใช้อวัยวะเพศของผู้กระทำกระทำกับอวัยวะเพศ ทวารหนัก หรือช่องปากของผู้อื่น หรือการใช้สิ่งอื่นใดกระทำกับอวัยวะเพศหรือทวารหนักของผู้อื่น"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@2007-09-20/p3",
+    "label": "276 วรรค 3",
+    "interval": {
+      "effective_from": "2007-09-20",
+      "effective_to_exclusive": "2017-03-21",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๖ ผู้ใดข่มขืนกระทำชำเราผู้อื่นโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้ายโดยผู้อื่นนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้ผู้อื่นนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดพันบาทถึงสี่หมื่นบาท】 และ (AND) (【มีหรือใช้อาวุธปืนหรือวัตถุระเบิด】 หรือ (OR) 【ร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมหญิงหรือกระทำกับชายในลักษณะเดียวกัน】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:276@2007-09-20/p1"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2007-09-20/p3/element:firearm_explosive_have_use"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2007-09-20/p3/element:joint_gang_conduct"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@2007-09-20/p3",
+        "start": 0,
+        "end": 264,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่งได้กระทำโดยมีหรือใช้อาวุธปืนหรือวัตถุระเบิด หรือโดยร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมหญิงหรือกระทำกับชายในลักษณะเดียวกัน ต้องระวางโทษจำคุกตั้งแต่สิบห้าปีถึงยี่สิบปี และปรับตั้งแต่สามหมื่นบาทถึงสี่หมื่นบาท หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@2007-09-20/p4",
+    "label": "276 วรรค 4",
+    "interval": {
+      "effective_from": "2007-09-20",
+      "effective_to_exclusive": "2017-03-21",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "sentencing_procedure",
+    "thai_equation": "【ถ้าการกระทำความผิดตามวรรคหนึ่งเป็นการกระทำความผิดระหว่างคู่สมรสและคู่สมรสนั้นยังประสงค์จะอยู่กินด้วยกันฉันสามีภริยา ศาลจะลงโทษน้อยกว่าที่กฎหมายกำหนดไว้เพียงใดก็ได้ หรือจะกำหนดเงื่อนไขเพื่อคุมความประพฤติแทนการลงโทษก็ได้ ในกรณีที่ศาลมีคำพิพากษาให้ลงโทษจำคุกและคู่สมรสฝ่ายใดฝ่ายหนึ่งไม่ประสงค์จะอยู่กินด้วยกันฉันสามีภริยาต่อไป และประสงค์จะหย่า ให้คู่สมรสฝ่ายนั้นแจ้งให้ศาลทราบ และให้ศาลแจ้งพนักงานอัยการให้ดำเนินการฟ้องหย่าให้】",
+    "ast": {
+      "op": "LEAF",
+      "node_id": "th-criminal:276@2007-09-20/p4/element:court_relief_rule"
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@2007-09-20/p4",
+        "start": 0,
+        "end": 423,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่งเป็นการกระทำความผิดระหว่างคู่สมรสและคู่สมรสนั้นยังประสงค์จะอยู่กินด้วยกันฉันสามีภริยา ศาลจะลงโทษน้อยกว่าที่กฎหมายกำหนดไว้เพียงใดก็ได้ หรือจะกำหนดเงื่อนไขเพื่อคุมความประพฤติแทนการลงโทษก็ได้ ในกรณีที่ศาลมีคำพิพากษาให้ลงโทษจำคุกและคู่สมรสฝ่ายใดฝ่ายหนึ่งไม่ประสงค์จะอยู่กินด้วยกันฉันสามีภริยาต่อไป และประสงค์จะหย่า ให้คู่สมรสฝ่ายนั้นแจ้งให้ศาลทราบ และให้ศาลแจ้งพนักงานอัยการให้ดำเนินการฟ้องหย่าให้"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@2007-09-20/p1",
+    "label": "277 วรรค 1",
+    "interval": {
+      "effective_from": "2007-09-20",
+      "effective_to_exclusive": "2015-02-14",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำชำเรา】 และ (AND) 【เด็ก】 และ (AND) 【อายุยังไม่เกินสิบห้าปี】 และ (AND) 【ซึ่งมิใช่ภริยาหรือสามีของตน】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2007-09-20/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2007-09-20/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2007-09-20/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2007-09-20/p1/element:age_2"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2007-09-20/p1/element:spouse_exclusion"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@2007-09-20/p1",
+        "start": 0,
+        "end": 189,
+        "quote": "มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กอายุยังไม่เกินสิบห้าปีซึ่งมิใช่ภริยาหรือสามีของตน โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดพันบาทถึงสี่หมื่นบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@2007-09-20/p2",
+    "label": "277 วรรค 2",
+    "interval": {
+      "effective_from": "2007-09-20",
+      "effective_to_exclusive": "2015-02-14",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "definition",
+    "thai_equation": "(【เพื่อสนองความใคร่ของผู้กระทำ】 และ (AND) (【การใช้อวัยวะเพศของผู้กระทำกระทำกับอวัยวะเพศ ทวารหนัก หรือช่องปากของผู้อื่น】 หรือ (OR) 【การใช้สิ่งอื่นใดกระทำกับอวัยวะเพศหรือทวารหนักของผู้อื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2007-09-20/p2/element:sexual_purpose"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:277@2007-09-20/p2/element:actor_genital_route"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:277@2007-09-20/p2/element:other_object_route"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@2007-09-20/p2",
+        "start": 0,
+        "end": 210,
+        "quote": "การกระทำชำเราตามวรรคหนึ่ง หมายความว่าการกระทำเพื่อสนองความใคร่ของผู้กระทำโดยการใช้อวัยวะเพศของผู้กระทำกระทำกับอวัยวะเพศ ทวารหนัก หรือช่องปากของผู้อื่น หรือการใช้สิ่งอื่นใดกระทำกับอวัยวะเพศหรือทวารหนักของผู้อื่น"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@2007-09-20/p3",
+    "label": "277 วรรค 3",
+    "interval": {
+      "effective_from": "2007-09-20",
+      "effective_to_exclusive": "2015-02-14",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กอายุยังไม่เกินสิบห้าปีซึ่งมิใช่ภริยาหรือสามีของตน โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดพันบาทถึงสี่หมื่นบาท】 และ (AND) 【อายุยังไม่เกินสิบสามปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:277@2007-09-20/p1"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2007-09-20/p3/element:age_0"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@2007-09-20/p3",
+        "start": 0,
+        "end": 180,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่งเป็นการกระทำแก่เด็กอายุยังไม่เกินสิบสามปี ต้องระวางโทษจำคุกตั้งแต่เจ็ดปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งหมื่นสี่พันบาทถึงสี่หมื่นบาท หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@2007-09-20/p4",
+    "label": "277 วรรค 4",
+    "interval": {
+      "effective_from": "2007-09-20",
+      "effective_to_exclusive": "2015-02-14",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "((อ้างอิง: 【มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กอายุยังไม่เกินสิบห้าปีซึ่งมิใช่ภริยาหรือสามีของตน โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดพันบาทถึงสี่หมื่นบาท】 หรือ (OR) อ้างอิง: 【ถ้าการกระทำความผิดตามวรรคหนึ่งเป็นการกระทำแก่เด็กอายุยังไม่เกินสิบสามปี ต้องระวางโทษจำคุกตั้งแต่เจ็ดปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งหมื่นสี่พันบาทถึงสี่หมื่นบาท หรือจำคุกตลอดชีวิต】) และ (AND) (【มีอาวุธปืนหรือวัตถุระเบิด】 หรือ (OR) 【โดยใช้อาวุธ】 หรือ (OR) (【ร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมเด็กหญิงหรือกระทำกับเด็กชายในลักษณะเดียวกัน】 และ (AND) 【และเด็กนั้นไม่ยินยอม】)))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "REF",
+              "node_id": "th-criminal:277@2007-09-20/p1"
+            },
+            {
+              "op": "REF",
+              "node_id": "th-criminal:277@2007-09-20/p3"
+            }
+          ]
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:277@2007-09-20/p4/element:firearm_explosive_have"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:277@2007-09-20/p4/element:weapon_use"
+            },
+            {
+              "op": "AND",
+              "children": [
+                {
+                  "op": "LEAF",
+                  "node_id": "th-criminal:277@2007-09-20/p4/element:joint_gang_conduct"
+                },
+                {
+                  "op": "LEAF",
+                  "node_id": "th-criminal:277@2007-09-20/p4/element:gang_nonconsent"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@2007-09-20/p4",
+        "start": 0,
+        "end": 244,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่งหรือวรรคสามได้กระทำโดยร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมเด็กหญิงหรือกระทำกับเด็กชายในลักษณะเดียวกันและเด็กนั้นไม่ยินยอม หรือได้กระทำโดยมีอาวุธปืนหรือวัตถุระเบิด หรือโดยใช้อาวุธ ต้องระวางโทษจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@2007-09-20/p5",
+    "label": "277 วรรค 5",
+    "interval": {
+      "effective_from": "2007-09-20",
+      "effective_to_exclusive": "2015-02-14",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "relief_exception",
+    "thai_equation": "(【อายุกว่าสิบสามปี】 และ (AND) 【อายุไม่เกินสิบแปดปี】 และ (AND) 【แต่ยังไม่เกินสิบห้าปี】 และ (AND) 【เด็กนั้นยินยอม】 และ (AND) 【ความผิดตามที่บัญญัติไว้ในวรรคหนึ่ง ถ้าเป็นการกระทำโดยบุคคลอายุไม่เกินสิบแปดปีกระทำต่อเด็กซึ่งมีอายุกว่าสิบสามปี แต่ยังไม่เกินสิบห้าปี โดยเด็กนั้นยินยอม และภายหลังศาลอนุญาตให้ทั้งสองฝ่ายสมรสกัน ผู้กระทำผิดไม่ต้องรับโทษ ถ้าศาลอนุญาตให้สมรสในระหว่างที่ผู้กระทำผิดกำลังรับโทษในความผิดนั้นอยู่ ให้ศาลปล่อยผู้กระทำความผิดนั้นไป】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2007-09-20/p5/element:age_3"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2007-09-20/p5/element:age_5"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2007-09-20/p5/element:age_6"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2007-09-20/p5/element:consent"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2007-09-20/p5/element:court_relief_rule"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@2007-09-20/p5",
+        "start": 0,
+        "end": 321,
+        "quote": "ความผิดตามที่บัญญัติไว้ในวรรคหนึ่ง ถ้าเป็นการกระทำโดยบุคคลอายุไม่เกินสิบแปดปีกระทำต่อเด็กซึ่งมีอายุกว่าสิบสามปี แต่ยังไม่เกินสิบห้าปี โดยเด็กนั้นยินยอม และภายหลังศาลอนุญาตให้ทั้งสองฝ่ายสมรสกัน ผู้กระทำผิดไม่ต้องรับโทษ ถ้าศาลอนุญาตให้สมรสในระหว่างที่ผู้กระทำผิดกำลังรับโทษในความผิดนั้นอยู่ ให้ศาลปล่อยผู้กระทำความผิดนั้นไป"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@2015-02-14/p1",
+    "label": "277 วรรค 1",
+    "interval": {
+      "effective_from": "2015-02-14",
+      "effective_to_exclusive": "2019-05-28",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำชำเรา】 และ (AND) 【เด็ก】 และ (AND) 【อายุยังไม่เกินสิบห้าปี】 และ (AND) 【ซึ่งมิใช่ภริยาหรือสามีของตน】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2015-02-14/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2015-02-14/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2015-02-14/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2015-02-14/p1/element:age_2"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2015-02-14/p1/element:spouse_exclusion"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@2015-02-14/p1",
+        "start": 0,
+        "end": 189,
+        "quote": "มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กอายุยังไม่เกินสิบห้าปีซึ่งมิใช่ภริยาหรือสามีของตน โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดหมื่นบาทถึงสี่แสนบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@2015-02-14/p2",
+    "label": "277 วรรค 2",
+    "interval": {
+      "effective_from": "2015-02-14",
+      "effective_to_exclusive": "2019-05-28",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "definition",
+    "thai_equation": "(【เพื่อสนองความใคร่ของผู้กระทำ】 และ (AND) (【การใช้อวัยวะเพศของผู้กระทำกระทำกับอวัยวะเพศ ทวารหนัก หรือช่องปากของผู้อื่น】 หรือ (OR) 【การใช้สิ่งอื่นใดกระทำกับอวัยวะเพศหรือทวารหนักของผู้อื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2015-02-14/p2/element:sexual_purpose"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:277@2015-02-14/p2/element:actor_genital_route"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:277@2015-02-14/p2/element:other_object_route"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@2015-02-14/p2",
+        "start": 0,
+        "end": 211,
+        "quote": "การกระทำชำเราตามวรรคหนึ่ง หมายความว่า การกระทำเพื่อสนองความใคร่ของผู้กระทำโดยการใช้อวัยวะเพศของผู้กระทำกระทำกับอวัยวะเพศ ทวารหนัก หรือช่องปากของผู้อื่น หรือการใช้สิ่งอื่นใดกระทำกับอวัยวะเพศหรือทวารหนักของผู้อื่น"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@2015-02-14/p3",
+    "label": "277 วรรค 3",
+    "interval": {
+      "effective_from": "2015-02-14",
+      "effective_to_exclusive": "2019-05-28",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กอายุยังไม่เกินสิบห้าปีซึ่งมิใช่ภริยาหรือสามีของตน โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดหมื่นบาทถึงสี่แสนบาท】 และ (AND) 【อายุยังไม่เกินสิบสามปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:277@2015-02-14/p1"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2015-02-14/p3/element:age_0"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@2015-02-14/p3",
+        "start": 0,
+        "end": 178,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่งเป็นการกระทำแก่เด็กอายุยังไม่เกินสิบสามปี ต้องระวางโทษจำคุกตั้งแต่เจ็ดปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนสี่หมื่นบาทถึงสี่แสนบาท หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@2015-02-14/p4",
+    "label": "277 วรรค 4",
+    "interval": {
+      "effective_from": "2015-02-14",
+      "effective_to_exclusive": "2019-05-28",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "((อ้างอิง: 【มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กอายุยังไม่เกินสิบห้าปีซึ่งมิใช่ภริยาหรือสามีของตน โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดหมื่นบาทถึงสี่แสนบาท】 หรือ (OR) อ้างอิง: 【ถ้าการกระทำความผิดตามวรรคหนึ่งเป็นการกระทำแก่เด็กอายุยังไม่เกินสิบสามปี ต้องระวางโทษจำคุกตั้งแต่เจ็ดปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนสี่หมื่นบาทถึงสี่แสนบาท หรือจำคุกตลอดชีวิต】) และ (AND) (【มีอาวุธปืนหรือวัตถุระเบิด】 หรือ (OR) 【โดยใช้อาวุธ】 หรือ (OR) 【ร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมเด็กหญิงหรือกระทำกับเด็กชายในลักษณะเดียวกัน】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "REF",
+              "node_id": "th-criminal:277@2015-02-14/p1"
+            },
+            {
+              "op": "REF",
+              "node_id": "th-criminal:277@2015-02-14/p3"
+            }
+          ]
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:277@2015-02-14/p4/element:firearm_explosive_have"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:277@2015-02-14/p4/element:weapon_use"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:277@2015-02-14/p4/element:joint_gang_conduct"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@2015-02-14/p4",
+        "start": 0,
+        "end": 223,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่งหรือวรรคสามได้กระทำโดยร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมเด็กหญิงหรือกระทำกับเด็กชายในลักษณะเดียวกันหรือได้กระทำโดยมีอาวุธปืนหรือวัตถุระเบิด หรือโดยใช้อาวุธ ต้องระวางโทษจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@2015-02-14/p5",
+    "label": "277 วรรค 5",
+    "interval": {
+      "effective_from": "2015-02-14",
+      "effective_to_exclusive": "2019-05-28",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "relief_exception",
+    "thai_equation": "(【อายุกว่าสิบสามปี】 และ (AND) 【อายุไม่เกินสิบแปดปี】 และ (AND) 【แต่ยังไม่เกินสิบห้าปี】 และ (AND) 【เด็กผู้ถูกกระทำนั้นยินยอม】 และ (AND) 【ความผิดตามที่บัญญัติไว้ในวรรคหนึ่ง ถ้าเป็นการกระทำโดยบุคคลอายุไม่เกินสิบแปดปีกระทำต่อเด็ก ซึ่งมีอายุกว่าสิบสามปีแต่ยังไม่เกินสิบห้าปี โดยเด็กผู้ถูกกระทำนั้นยินยอม ศาลที่มีอำนาจพิจารณาคดีเยาวชนและครอบครัวจะพิจารณาให้มีการคุ้มครองสวัสดิภาพของเด็กผู้ถูกกระทำหรือผู้กระทำความผิดตามกฎหมายว่าด้วยการคุ้มครองเด็ก หรือจะอนุญาตให้ทั้งสองฝ่ายสมรสกันโดยกำหนดเงื่อนไขให้ต้องดำเนินการภายหลังการสมรสก็ได้ และเมื่อศาลได้พิจารณามีคำสั่งอย่างใดแล้ว ศาลจะลงโทษผู้กระทำความผิดน้อยกว่าที่กฎหมายกำหนดไว้สำหรับความผิดนั้นเพียงใดก็ได้ ในการพิจารณาของศาลให้คำนึงถึงอายุ ประวัติ ความประพฤติ สติปัญญา การศึกษาอบรม สุขภาพ ภาวะแห่งจิต นิสัย อาชีพ สิ่งแวดล้อมของผู้กระทำความผิดและเด็ก ผู้ถูกกระทำ ความสัมพันธ์ระหว่างผู้กระทำความผิดกับเด็กผู้ถูกกระทำ หรือเหตุอื่นอันควรเพื่อประโยชน์ของเด็กผู้ถูกกระทำด้วย】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2015-02-14/p5/element:age_3"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2015-02-14/p5/element:age_5"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2015-02-14/p5/element:age_6"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2015-02-14/p5/element:consent"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2015-02-14/p5/element:court_relief_rule"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@2015-02-14/p5",
+        "start": 0,
+        "end": 774,
+        "quote": "ความผิดตามที่บัญญัติไว้ในวรรคหนึ่ง ถ้าเป็นการกระทำโดยบุคคลอายุไม่เกินสิบแปดปีกระทำต่อเด็ก ซึ่งมีอายุกว่าสิบสามปีแต่ยังไม่เกินสิบห้าปี โดยเด็กผู้ถูกกระทำนั้นยินยอม ศาลที่มีอำนาจพิจารณาคดีเยาวชนและครอบครัวจะพิจารณาให้มีการคุ้มครองสวัสดิภาพของเด็กผู้ถูกกระทำหรือผู้กระทำความผิดตามกฎหมายว่าด้วยการคุ้มครองเด็ก หรือจะอนุญาตให้ทั้งสองฝ่ายสมรสกันโดยกำหนดเงื่อนไขให้ต้องดำเนินการภายหลังการสมรสก็ได้ และเมื่อศาลได้พิจารณามีคำสั่งอย่างใดแล้ว ศาลจะลงโทษผู้กระทำความผิดน้อยกว่าที่กฎหมายกำหนดไว้สำหรับความผิดนั้นเพียงใดก็ได้ ในการพิจารณาของศาลให้คำนึงถึงอายุ ประวัติ ความประพฤติ สติปัญญา การศึกษาอบรม สุขภาพ ภาวะแห่งจิต นิสัย อาชีพ สิ่งแวดล้อมของผู้กระทำความผิดและเด็ก ผู้ถูกกระทำ ความสัมพันธ์ระหว่างผู้กระทำความผิดกับเด็กผู้ถูกกระทำ หรือเหตุอื่นอันควรเพื่อประโยชน์ของเด็กผู้ถูกกระทำด้วย"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@2017-03-21/p1",
+    "label": "276 วรรค 1",
+    "interval": {
+      "effective_from": "2017-03-21",
+      "effective_to_exclusive": "2019-05-28",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【ข่มขืนกระทำชำเรา】 และ (AND) 【ผู้อื่น】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【ผู้อื่นนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้ผู้อื่นนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@2017-03-21/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@2017-03-21/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@2017-03-21/p1/element:object_person"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2017-03-21/p1/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2017-03-21/p1/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2017-03-21/p1/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2017-03-21/p1/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@2017-03-21/p1",
+        "start": 0,
+        "end": 260,
+        "quote": "มาตรา ๒๗๖ ผู้ใดข่มขืนกระทำชำเราผู้อื่นโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้ายโดยผู้อื่นนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้ผู้อื่นนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษ จำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดหมื่นบาทถึงสี่แสนบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@2017-03-21/p2",
+    "label": "276 วรรค 2",
+    "interval": {
+      "effective_from": "2017-03-21",
+      "effective_to_exclusive": "2019-05-28",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "definition",
+    "thai_equation": "(【เพื่อสนองความใคร่ของผู้กระทำ】 และ (AND) (【การใช้อวัยวะเพศของผู้กระทำกระทำกับอวัยวะเพศ ทวารหนัก หรือช่องปากของผู้อื่น】 หรือ (OR) 【การใช้สิ่งอื่นใดกระทำกับอวัยวะเพศหรือทวารหนักของผู้อื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@2017-03-21/p2/element:sexual_purpose"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2017-03-21/p2/element:actor_genital_route"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2017-03-21/p2/element:other_object_route"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@2017-03-21/p2",
+        "start": 0,
+        "end": 210,
+        "quote": "การกระทำชำเราตามวรรคหนึ่ง หมายความว่าการกระทำเพื่อสนองความใคร่ของผู้กระทำโดยการใช้อวัยวะเพศของผู้กระทำกระทำกับอวัยวะเพศ ทวารหนัก หรือช่องปากของผู้อื่น หรือการใช้สิ่งอื่นใดกระทำกับอวัยวะเพศหรือทวารหนักของผู้อื่น"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@2017-03-21/p3",
+    "label": "276 วรรค 3",
+    "interval": {
+      "effective_from": "2017-03-21",
+      "effective_to_exclusive": "2019-05-28",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๖ ผู้ใดข่มขืนกระทำชำเราผู้อื่นโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้ายโดยผู้อื่นนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้ผู้อื่นนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษ จำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดหมื่นบาทถึงสี่แสนบาท】 และ (AND) (【มีหรือใช้อาวุธปืนหรือวัตถุระเบิด】 หรือ (OR) 【ร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมหญิงหรือกระทำกับชายในลักษณะเดียวกัน】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:276@2017-03-21/p1"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2017-03-21/p3/element:firearm_explosive_have_use"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2017-03-21/p3/element:joint_gang_conduct"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@2017-03-21/p3",
+        "start": 0,
+        "end": 260,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่งได้กระทำโดยมีหรือใช้อาวุธปืนหรือวัตถุระเบิด หรือโดยร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมหญิงหรือกระทำกับชายในลักษณะเดียวกัน ต้องระวางโทษจำคุกตั้งแต่สิบห้าปีถึงยี่สิบปี และปรับตั้งแต่สามแสนบาทถึงสี่แสนบาท หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@2017-03-21/p4",
+    "label": "276 วรรค 4",
+    "interval": {
+      "effective_from": "2017-03-21",
+      "effective_to_exclusive": "2019-05-28",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "sentencing_procedure",
+    "thai_equation": "【ถ้าการกระทำความผิดตามวรรคหนึ่งเป็นการกระทำความผิดระหว่างคู่สมรสและคู่สมรสนั้นยังประสงค์จะอยู่กินด้วยกันฉันสามีภริยา ศาลจะลงโทษน้อยกว่าที่กฎหมายกำหนดไว้เพียงใดก็ได้ หรือจะกำหนดเงื่อนไขเพื่อคุมความประพฤติแทนการลงโทษก็ได้ ในกรณีที่ศาลมีคำพิพากษาให้ลงโทษจำคุกและคู่สมรสฝ่ายใดฝ่ายหนึ่งไม่ประสงค์จะอยู่กินด้วยกันฉันสามีภริยาต่อไป และประสงค์จะหย่า ให้คู่สมรสฝ่ายนั้นแจ้งให้ศาลทราบ และให้ศาลแจ้งพนักงานอัยการให้ดำเนินการฟ้องหย่าให้】",
+    "ast": {
+      "op": "LEAF",
+      "node_id": "th-criminal:276@2017-03-21/p4/element:court_relief_rule"
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@2017-03-21/p4",
+        "start": 0,
+        "end": 423,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่งเป็นการกระทำความผิดระหว่างคู่สมรสและคู่สมรสนั้นยังประสงค์จะอยู่กินด้วยกันฉันสามีภริยา ศาลจะลงโทษน้อยกว่าที่กฎหมายกำหนดไว้เพียงใดก็ได้ หรือจะกำหนดเงื่อนไขเพื่อคุมความประพฤติแทนการลงโทษก็ได้ ในกรณีที่ศาลมีคำพิพากษาให้ลงโทษจำคุกและคู่สมรสฝ่ายใดฝ่ายหนึ่งไม่ประสงค์จะอยู่กินด้วยกันฉันสามีภริยาต่อไป และประสงค์จะหย่า ให้คู่สมรสฝ่ายนั้นแจ้งให้ศาลทราบ และให้ศาลแจ้งพนักงานอัยการให้ดำเนินการฟ้องหย่าให้"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:278@2017-03-21/p1",
+    "label": "278 วรรค 1",
+    "interval": {
+      "effective_from": "2017-03-21",
+      "effective_to_exclusive": "2019-05-28",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำอนาจาร】 และ (AND) 【บุคคล】 และ (AND) 【อายุกว่าสิบห้าปี】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【บุคคลนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้บุคคลนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@2017-03-21/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@2017-03-21/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@2017-03-21/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@2017-03-21/p1/element:age_4"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@2017-03-21/p1/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@2017-03-21/p1/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@2017-03-21/p1/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@2017-03-21/p1/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:278@2017-03-21/p1",
+        "start": 0,
+        "end": 264,
+        "quote": "มาตรา ๒๗๘ ผู้ใดกระทำอนาจารแก่บุคคลอายุกว่าสิบห้าปีโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยบุคคลนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้บุคคลนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษ จำคุกไม่เกินสิบปี หรือปรับไม่เกินสองแสนบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@2017-03-21/p1",
+    "label": "279 วรรค 1",
+    "interval": {
+      "effective_from": "2017-03-21",
+      "effective_to_exclusive": "2019-05-28",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำอนาจาร】 และ (AND) 【เด็ก】 และ (AND) 【อายุยังไม่เกินสิบห้าปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2017-03-21/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2017-03-21/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2017-03-21/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2017-03-21/p1/element:age_2"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@2017-03-21/p1",
+        "start": 0,
+        "end": 161,
+        "quote": "มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบห้าปีโดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษ จำคุกไม่เกินสิบปี หรือปรับไม่เกินสองแสนบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@2017-03-21/p2",
+    "label": "279 วรรค 2",
+    "interval": {
+      "effective_from": "2017-03-21",
+      "effective_to_exclusive": "2019-05-28",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบห้าปีโดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษ จำคุกไม่เกินสิบปี หรือปรับไม่เกินสองแสนบาท หรือทั้งจำทั้งปรับ】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【เด็กนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้เด็กนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:279@2017-03-21/p1"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@2017-03-21/p2/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@2017-03-21/p2/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@2017-03-21/p2/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@2017-03-21/p2/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@2017-03-21/p2",
+        "start": 0,
+        "end": 259,
+        "quote": "ถ้าการกระทำความผิดตามวรรคแรก ผู้กระทำได้กระทำโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยเด็กนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้เด็กนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกไม่เกินสิบห้าปี หรือปรับไม่เกินสามแสนบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@2019-05-28/p1",
+    "label": "276 วรรค 1",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【ข่มขืนกระทำชำเรา】 และ (AND) 【ผู้อื่น】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【ผู้อื่นนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้ผู้อื่นนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@2019-05-28/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@2019-05-28/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@2019-05-28/p1/element:object_person"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2019-05-28/p1/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2019-05-28/p1/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2019-05-28/p1/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2019-05-28/p1/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@2019-05-28/p1",
+        "start": 0,
+        "end": 260,
+        "quote": "มาตรา ๒๗๖ ผู้ใดข่มขืนกระทำชำเราผู้อื่นโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยผู้อื่นนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้ผู้อื่นนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดหมื่นบาทถึงสี่แสนบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@2019-05-28/p2",
+    "label": "276 วรรค 2",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๖ ผู้ใดข่มขืนกระทำชำเราผู้อื่นโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยผู้อื่นนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้ผู้อื่นนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดหมื่นบาทถึงสี่แสนบาท】 และ (AND) 【ทำให้ผู้ถูกกระทำเข้าใจว่าผู้กระทำมีอาวุธปืนหรือวัตถุระเบิด】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:276@2019-05-28/p1"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:276@2019-05-28/p2/element:believed_weapon"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@2019-05-28/p2",
+        "start": 0,
+        "end": 188,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่ง ได้กระทำโดยทำให้ผู้ถูกกระทำเข้าใจว่าผู้กระทำมีอาวุธปืนหรือวัตถุระเบิด ต้องระวางโทษจำคุกตั้งแต่เจ็ดปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนสี่หมื่นบาทถึงสี่แสนบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@2019-05-28/p3",
+    "label": "276 วรรค 3",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๖ ผู้ใดข่มขืนกระทำชำเราผู้อื่นโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยผู้อื่นนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้ผู้อื่นนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดหมื่นบาทถึงสี่แสนบาท】 และ (AND) (【มีอาวุธปืนหรือวัตถุระเบิด】 หรือ (OR) 【โดยใช้อาวุธ】 หรือ (OR) 【ร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมหญิงหรือกระทำกับชายในลักษณะเดียวกัน】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:276@2019-05-28/p1"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2019-05-28/p3/element:firearm_explosive_have"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2019-05-28/p3/element:weapon_use"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:276@2019-05-28/p3/element:joint_gang_conduct"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@2019-05-28/p3",
+        "start": 0,
+        "end": 270,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่ง ได้กระทำโดยมีอาวุธปืนหรือวัตถุระเบิด หรือโดยใช้อาวุธ หรือโดยร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมหญิงหรือกระทำกับชายในลักษณะเดียวกัน ต้องระวางโทษจำคุกตั้งแต่สิบห้าปีถึงยี่สิบปี และปรับตั้งแต่สามแสนบาทถึงสี่แสนบาท หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:276@2019-05-28/p4",
+    "label": "276 วรรค 4",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "sentencing_procedure",
+    "thai_equation": "【ถ้าการกระทำความผิดตามวรรคหนึ่ง เป็นการกระทำความผิดระหว่างคู่สมรส และคู่สมรสนั้นยังประสงค์จะอยู่กินด้วยกันฉันสามีภริยา ศาลจะลงโทษน้อยกว่าที่กฎหมายกำหนดไว้เพียงใดก็ได้ หรือจะกำหนดเงื่อนไขเพื่อคุมความประพฤติแทนการลงโทษก็ได้ ในกรณีที่ศาลมีคำพิพากษาให้ลงโทษจำคุกและคู่สมรสฝ่ายใดฝ่ายหนึ่งไม่ประสงค์จะอยู่กินด้วยกันฉันสามีภริยาต่อไป และประสงค์จะหย่า ให้คู่สมรสฝ่ายนั้นแจ้งให้ศาลทราบ และให้ศาลแจ้งพนักงานอัยการให้ดำเนินการฟ้องหย่าให้】",
+    "ast": {
+      "op": "LEAF",
+      "node_id": "th-criminal:276@2019-05-28/p4/element:court_relief_rule"
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:276@2019-05-28/p4",
+        "start": 0,
+        "end": 425,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่ง เป็นการกระทำความผิดระหว่างคู่สมรส และคู่สมรสนั้นยังประสงค์จะอยู่กินด้วยกันฉันสามีภริยา ศาลจะลงโทษน้อยกว่าที่กฎหมายกำหนดไว้เพียงใดก็ได้ หรือจะกำหนดเงื่อนไขเพื่อคุมความประพฤติแทนการลงโทษก็ได้ ในกรณีที่ศาลมีคำพิพากษาให้ลงโทษจำคุกและคู่สมรสฝ่ายใดฝ่ายหนึ่งไม่ประสงค์จะอยู่กินด้วยกันฉันสามีภริยาต่อไป และประสงค์จะหย่า ให้คู่สมรสฝ่ายนั้นแจ้งให้ศาลทราบ และให้ศาลแจ้งพนักงานอัยการให้ดำเนินการฟ้องหย่าให้"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@2019-05-28/p1",
+    "label": "277 วรรค 1",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำชำเรา】 และ (AND) 【เด็ก】 และ (AND) 【อายุยังไม่เกินสิบห้าปี】 และ (AND) 【ซึ่งมิใช่ภริยาหรือสามีของตน】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2019-05-28/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2019-05-28/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2019-05-28/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2019-05-28/p1/element:age_2"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2019-05-28/p1/element:spouse_exclusion"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@2019-05-28/p1",
+        "start": 0,
+        "end": 189,
+        "quote": "มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กอายุยังไม่เกินสิบห้าปีซึ่งมิใช่ภริยาหรือสามีของตน โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่ห้าปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนบาทถึงสี่แสนบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@2019-05-28/p2",
+    "label": "277 วรรค 2",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กอายุยังไม่เกินสิบห้าปีซึ่งมิใช่ภริยาหรือสามีของตน โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่ห้าปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนบาทถึงสี่แสนบาท】 และ (AND) 【อายุยังไม่เกินสิบสามปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:277@2019-05-28/p1"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2019-05-28/p2/element:age_0"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@2019-05-28/p2",
+        "start": 0,
+        "end": 179,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่ง เป็นการกระทำแก่เด็กอายุยังไม่เกินสิบสามปี ต้องระวางโทษจำคุกตั้งแต่เจ็ดปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนสี่หมื่นบาทถึงสี่แสนบาท หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@2019-05-28/p3",
+    "label": "277 วรรค 3",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "((อ้างอิง: 【มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กอายุยังไม่เกินสิบห้าปีซึ่งมิใช่ภริยาหรือสามีของตน โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่ห้าปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนบาทถึงสี่แสนบาท】 หรือ (OR) อ้างอิง: 【ถ้าการกระทำความผิดตามวรรคหนึ่ง เป็นการกระทำแก่เด็กอายุยังไม่เกินสิบสามปี ต้องระวางโทษจำคุกตั้งแต่เจ็ดปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนสี่หมื่นบาทถึงสี่แสนบาท หรือจำคุกตลอดชีวิต】) และ (AND) 【ทำให้ผู้ถูกกระทำเข้าใจว่าผู้กระทำมีอาวุธปืนหรือวัตถุระเบิด】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "REF",
+              "node_id": "th-criminal:277@2019-05-28/p1"
+            },
+            {
+              "op": "REF",
+              "node_id": "th-criminal:277@2019-05-28/p2"
+            }
+          ]
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2019-05-28/p3/element:believed_weapon"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@2019-05-28/p3",
+        "start": 0,
+        "end": 207,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่งหรือวรรคสอง ได้กระทำโดยทำให้ผู้ถูกกระทำเข้าใจว่าผู้กระทำมีอาวุธปืนหรือวัตถุระเบิด ต้องระวางโทษจำคุกตั้งแต่สิบปีถึงยี่สิบปี และปรับตั้งแต่สองแสนบาทถึงสี่แสนบาท หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@2019-05-28/p4",
+    "label": "277 วรรค 4",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "((อ้างอิง: 【มาตรา ๒๗๗ ผู้ใดกระทำชำเราเด็กอายุยังไม่เกินสิบห้าปีซึ่งมิใช่ภริยาหรือสามีของตน โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกตั้งแต่ห้าปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนบาทถึงสี่แสนบาท】 หรือ (OR) อ้างอิง: 【ถ้าการกระทำความผิดตามวรรคหนึ่ง เป็นการกระทำแก่เด็กอายุยังไม่เกินสิบสามปี ต้องระวางโทษจำคุกตั้งแต่เจ็ดปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนสี่หมื่นบาทถึงสี่แสนบาท หรือจำคุกตลอดชีวิต】) และ (AND) (【มีอาวุธปืนหรือวัตถุระเบิด】 หรือ (OR) 【โดยใช้อาวุธ】 หรือ (OR) 【ร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมเด็กหญิงหรือกระทำกับเด็กชายในลักษณะเดียวกัน】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "REF",
+              "node_id": "th-criminal:277@2019-05-28/p1"
+            },
+            {
+              "op": "REF",
+              "node_id": "th-criminal:277@2019-05-28/p2"
+            }
+          ]
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:277@2019-05-28/p4/element:firearm_explosive_have"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:277@2019-05-28/p4/element:weapon_use"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:277@2019-05-28/p4/element:joint_gang_conduct"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@2019-05-28/p4",
+        "start": 0,
+        "end": 217,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่งหรือวรรคสอง ได้กระทำโดยมีอาวุธปืนหรือวัตถุระเบิด หรือโดยใช้อาวุธ หรือโดยร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมเด็กหญิงหรือกระทำกับเด็กชายในลักษณะเดียวกัน ต้องระวางโทษจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@2019-05-28/p5",
+    "label": "277 วรรค 5",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "relief_exception",
+    "thai_equation": "(【อายุกว่าสิบสามปี】 และ (AND) 【อายุไม่เกินสิบแปดปี】 และ (AND) 【แต่ยังไม่เกินสิบห้าปี】 และ (AND) 【เด็กนั้นยินยอม】 และ (AND) 【ความผิดตามที่บัญญัติไว้ในวรรคหนึ่ง ถ้าเป็นการกระทำโดยบุคคลอายุไม่เกินสิบแปดปีกระทำต่อเด็กซึ่งมีอายุกว่าสิบสามปีแต่ยังไม่เกินสิบห้าปี โดยเด็กนั้นยินยอม ศาลที่มีอำนาจพิจารณาคดีเยาวชนและครอบครัวจะพิจารณาให้มีการคุ้มครองสวัสดิภาพของเด็กผู้ถูกกระทำหรือผู้กระทำความผิดตามกฎหมายว่าด้วยการคุ้มครองเด็กแทนการลงโทษก็ได้ ในการพิจารณาของศาล ให้คำนึงถึงอายุ ประวัติ ความประพฤติ สติปัญญา การศึกษาอบรม สุขภาพ ภาวะแห่งจิต นิสัย อาชีพ สิ่งแวดล้อมของผู้กระทำความผิดและเด็กผู้ถูกกระทำ ความสัมพันธ์ระหว่างผู้กระทำความผิดกับเด็กผู้ถูกกระทำ หรือเหตุอื่นอันควรเพื่อประโยชน์ของเด็กผู้ถูกกระทำด้วย】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2019-05-28/p5/element:age_3"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2019-05-28/p5/element:age_5"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2019-05-28/p5/element:age_6"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2019-05-28/p5/element:consent"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:277@2019-05-28/p5/element:court_relief_rule"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@2019-05-28/p5",
+        "start": 0,
+        "end": 572,
+        "quote": "ความผิดตามที่บัญญัติไว้ในวรรคหนึ่ง ถ้าเป็นการกระทำโดยบุคคลอายุไม่เกินสิบแปดปีกระทำต่อเด็กซึ่งมีอายุกว่าสิบสามปีแต่ยังไม่เกินสิบห้าปี โดยเด็กนั้นยินยอม ศาลที่มีอำนาจพิจารณาคดีเยาวชนและครอบครัวจะพิจารณาให้มีการคุ้มครองสวัสดิภาพของเด็กผู้ถูกกระทำหรือผู้กระทำความผิดตามกฎหมายว่าด้วยการคุ้มครองเด็กแทนการลงโทษก็ได้ ในการพิจารณาของศาล ให้คำนึงถึงอายุ ประวัติ ความประพฤติ สติปัญญา การศึกษาอบรม สุขภาพ ภาวะแห่งจิต นิสัย อาชีพ สิ่งแวดล้อมของผู้กระทำความผิดและเด็กผู้ถูกกระทำ ความสัมพันธ์ระหว่างผู้กระทำความผิดกับเด็กผู้ถูกกระทำ หรือเหตุอื่นอันควรเพื่อประโยชน์ของเด็กผู้ถูกกระทำด้วย"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:277@2019-05-28/p6",
+    "label": "277 วรรค 6",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "relief_exception",
+    "thai_equation": "【ในกรณีที่ได้มีการดำเนินการคุ้มครองสวัสดิภาพของเด็กผู้ถูกกระทำหรือผู้กระทำความผิดตามกฎหมายว่าด้วยการคุ้มครองเด็กแล้ว ผู้กระทำความผิดไม่ต้องรับโทษ แต่ถ้าการคุ้มครองสวัสดิภาพดังกล่าวไม่สำเร็จ ศาลจะลงโทษผู้กระทำความผิดน้อยกว่าที่กฎหมายกำหนดไว้สำหรับความผิดนั้นเพียงใดก็ได้ ในการพิจารณาของศาล ให้คำนึงถึงเหตุตามวรรคห้าด้วย】",
+    "ast": {
+      "op": "LEAF",
+      "node_id": "th-criminal:277@2019-05-28/p6/element:court_relief_rule"
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:277@2019-05-28/p6",
+        "start": 0,
+        "end": 317,
+        "quote": "ในกรณีที่ได้มีการดำเนินการคุ้มครองสวัสดิภาพของเด็กผู้ถูกกระทำหรือผู้กระทำความผิดตามกฎหมายว่าด้วยการคุ้มครองเด็กแล้ว ผู้กระทำความผิดไม่ต้องรับโทษ แต่ถ้าการคุ้มครองสวัสดิภาพดังกล่าวไม่สำเร็จ ศาลจะลงโทษผู้กระทำความผิดน้อยกว่าที่กฎหมายกำหนดไว้สำหรับความผิดนั้นเพียงใดก็ได้ ในการพิจารณาของศาล ให้คำนึงถึงเหตุตามวรรคห้าด้วย"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:278@2019-05-28/p1",
+    "label": "278 วรรค 1",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": "2025-12-30",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำอนาจาร】 และ (AND) 【บุคคล】 และ (AND) 【อายุกว่าสิบห้าปี】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【บุคคลนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้บุคคลนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@2019-05-28/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@2019-05-28/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@2019-05-28/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@2019-05-28/p1/element:age_4"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@2019-05-28/p1/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@2019-05-28/p1/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@2019-05-28/p1/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@2019-05-28/p1/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:278@2019-05-28/p1",
+        "start": 0,
+        "end": 264,
+        "quote": "มาตรา ๒๗๘ ผู้ใดกระทำอนาจารแก่บุคคลอายุกว่าสิบห้าปีโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยบุคคลนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้บุคคลนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษ จำคุกไม่เกินสิบปี หรือปรับไม่เกินสองแสนบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:278@2019-05-28/p2",
+    "label": "278 วรรค 2",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": "2025-12-30",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๘ ผู้ใดกระทำอนาจารแก่บุคคลอายุกว่าสิบห้าปีโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยบุคคลนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้บุคคลนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษ จำคุกไม่เกินสิบปี หรือปรับไม่เกินสองแสนบาท หรือทั้งจำทั้งปรับ】 และ (AND) 【ใช้วัตถุหรืออวัยวะอื่นซึ่งมิใช่อวัยวะเพศล่วงล้ำอวัยวะเพศหรือทวารหนักของบุคคลนั้น】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:278@2019-05-28/p1"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@2019-05-28/p2/element:other_instrument_intrusion"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:278@2019-05-28/p2",
+        "start": 0,
+        "end": 213,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่ง เป็นการกระทำโดยใช้วัตถุหรืออวัยวะอื่นซึ่งมิใช่อวัยวะเพศล่วงล้ำอวัยวะเพศหรือทวารหนักของบุคคลนั้น ผู้กระทำต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดหมื่นบาทถึงสี่แสนบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:278@2019-05-28/p3",
+    "label": "278 วรรค 3",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": "2025-12-30",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【ถ้าการกระทำความผิดตามวรรคหนึ่ง เป็นการกระทำโดยใช้วัตถุหรืออวัยวะอื่นซึ่งมิใช่อวัยวะเพศล่วงล้ำอวัยวะเพศหรือทวารหนักของบุคคลนั้น ผู้กระทำต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดหมื่นบาทถึงสี่แสนบาท】 และ (AND) 【ทำให้ผู้ถูกกระทำเข้าใจว่าผู้กระทำมีอาวุธปืนหรือวัตถุระเบิด】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:278@2019-05-28/p2"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@2019-05-28/p3/element:believed_weapon"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:278@2019-05-28/p3",
+        "start": 0,
+        "end": 186,
+        "quote": "ถ้าการกระทำความผิดตามวรรคสอง ได้กระทำโดยทำให้ผู้ถูกกระทำเข้าใจว่าผู้กระทำมีอาวุธปืนหรือวัตถุระเบิด ต้องระวางโทษจำคุกตั้งแต่เจ็ดปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนสี่หมื่นบาทถึงสี่แสนบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:278@2019-05-28/p4",
+    "label": "278 วรรค 4",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": "2025-12-30",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【ถ้าการกระทำความผิดตามวรรคหนึ่ง เป็นการกระทำโดยใช้วัตถุหรืออวัยวะอื่นซึ่งมิใช่อวัยวะเพศล่วงล้ำอวัยวะเพศหรือทวารหนักของบุคคลนั้น ผู้กระทำต้องระวางโทษจำคุกตั้งแต่สี่ปีถึงยี่สิบปี และปรับตั้งแต่แปดหมื่นบาทถึงสี่แสนบาท】 และ (AND) (【มีอาวุธปืนหรือวัตถุระเบิด】 หรือ (OR) 【โดยใช้อาวุธ】 หรือ (OR) 【ร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมหญิงหรือกระทำกับชายในลักษณะเดียวกัน】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:278@2019-05-28/p2"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@2019-05-28/p4/element:firearm_explosive_have"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@2019-05-28/p4/element:weapon_use"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@2019-05-28/p4/element:joint_gang_conduct"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:278@2019-05-28/p4",
+        "start": 0,
+        "end": 267,
+        "quote": "ถ้าการกระทำความผิดตามวรรคสอง ได้กระทำโดยมีอาวุธปืนหรือวัตถุระเบิดหรือโดยใช้อาวุธ หรือโดยร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมหญิงหรือกระทำกับชายในลักษณะเดียวกัน ต้องระวางโทษจำคุกตั้งแต่สิบห้าปีถึงยี่สิบปี และปรับตั้งแต่สามแสนบาทถึงสี่แสนบาท หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@2019-05-28/p1",
+    "label": "279 วรรค 1",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": "2025-12-30",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำอนาจาร】 และ (AND) 【เด็ก】 และ (AND) 【อายุยังไม่เกินสิบห้าปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2019-05-28/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2019-05-28/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2019-05-28/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2019-05-28/p1/element:age_2"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@2019-05-28/p1",
+        "start": 0,
+        "end": 161,
+        "quote": "มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบห้าปี โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกไม่เกินสิบปี หรือปรับไม่เกินสองแสนบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@2019-05-28/p2",
+    "label": "279 วรรค 2",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": "2025-12-30",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบห้าปี โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกไม่เกินสิบปี หรือปรับไม่เกินสองแสนบาท หรือทั้งจำทั้งปรับ】 และ (AND) 【อายุไม่เกินสิบสามปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:279@2019-05-28/p1"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2019-05-28/p2/element:age_1"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@2019-05-28/p2",
+        "start": 0,
+        "end": 167,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่ง เป็นการกระทำแก่เด็กอายุไม่เกินสิบสามปี ต้องระวางโทษจำคุกตั้งแต่หนึ่งปีถึงสิบปี หรือปรับตั้งแต่สองหมื่นบาทถึงสองแสนบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@2019-05-28/p3",
+    "label": "279 วรรค 3",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": "2025-12-30",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "((อ้างอิง: 【มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบห้าปี โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกไม่เกินสิบปี หรือปรับไม่เกินสองแสนบาท หรือทั้งจำทั้งปรับ】 หรือ (OR) อ้างอิง: 【ถ้าการกระทำความผิดตามวรรคหนึ่ง เป็นการกระทำแก่เด็กอายุไม่เกินสิบสามปี ต้องระวางโทษจำคุกตั้งแต่หนึ่งปีถึงสิบปี หรือปรับตั้งแต่สองหมื่นบาทถึงสองแสนบาท หรือทั้งจำทั้งปรับ】) และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【เด็กนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้เด็กนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "REF",
+              "node_id": "th-criminal:279@2019-05-28/p1"
+            },
+            {
+              "op": "REF",
+              "node_id": "th-criminal:279@2019-05-28/p2"
+            }
+          ]
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@2019-05-28/p3/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@2019-05-28/p3/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@2019-05-28/p3/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@2019-05-28/p3/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@2019-05-28/p3",
+        "start": 0,
+        "end": 296,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่งหรือวรรคสอง ผู้กระทำได้กระทำโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยเด็กนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้เด็กนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกตั้งแต่หนึ่งปีถึงสิบห้าปี หรือปรับตั้งแต่สองหมื่นบาทถึงสามแสนบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@2019-05-28/p4",
+    "label": "279 วรรค 4",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": "2025-12-30",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "((อ้างอิง: 【มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบห้าปี โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกไม่เกินสิบปี หรือปรับไม่เกินสองแสนบาท หรือทั้งจำทั้งปรับ】 หรือ (OR) อ้างอิง: 【ถ้าการกระทำความผิดตามวรรคหนึ่งหรือวรรคสอง ผู้กระทำได้กระทำโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยเด็กนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้เด็กนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกตั้งแต่หนึ่งปีถึงสิบห้าปี หรือปรับตั้งแต่สองหมื่นบาทถึงสามแสนบาท หรือทั้งจำทั้งปรับ】) และ (AND) 【ใช้วัตถุหรืออวัยวะอื่นซึ่งมิใช่อวัยวะเพศล่วงล้ำอวัยวะเพศหรือทวารหนักของเด็กนั้น】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "REF",
+              "node_id": "th-criminal:279@2019-05-28/p1"
+            },
+            {
+              "op": "REF",
+              "node_id": "th-criminal:279@2019-05-28/p3"
+            }
+          ]
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2019-05-28/p4/element:other_instrument_intrusion"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@2019-05-28/p4",
+        "start": 0,
+        "end": 223,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่งหรือวรรคสาม เป็นการกระทำโดยใช้วัตถุหรืออวัยวะอื่นซึ่งมิใช่อวัยวะเพศล่วงล้ำอวัยวะเพศหรือทวารหนักของเด็กนั้น ผู้กระทำต้องระวางโทษจำคุกตั้งแต่ห้าปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนบาทถึงสี่แสนบาท"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@2019-05-28/p5",
+    "label": "279 วรรค 5",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": "2025-12-30",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【ถ้าการกระทำความผิดตามวรรคหนึ่งหรือวรรคสาม เป็นการกระทำโดยใช้วัตถุหรืออวัยวะอื่นซึ่งมิใช่อวัยวะเพศล่วงล้ำอวัยวะเพศหรือทวารหนักของเด็กนั้น ผู้กระทำต้องระวางโทษจำคุกตั้งแต่ห้าปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนบาทถึงสี่แสนบาท】 และ (AND) 【อายุยังไม่เกินสิบสามปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:279@2019-05-28/p4"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2019-05-28/p5/element:age_0"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@2019-05-28/p5",
+        "start": 0,
+        "end": 177,
+        "quote": "ถ้าการกระทำความผิดตามวรรคสี่ เป็นการกระทำแก่เด็กอายุยังไม่เกินสิบสามปี ต้องระวางโทษจำคุกตั้งแต่เจ็ดปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนสี่หมื่นบาทถึงสี่แสนบาท หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@2019-05-28/p6",
+    "label": "279 วรรค 6",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": "2025-12-30",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "((อ้างอิง: 【ถ้าการกระทำความผิดตามวรรคหนึ่งหรือวรรคสาม เป็นการกระทำโดยใช้วัตถุหรืออวัยวะอื่นซึ่งมิใช่อวัยวะเพศล่วงล้ำอวัยวะเพศหรือทวารหนักของเด็กนั้น ผู้กระทำต้องระวางโทษจำคุกตั้งแต่ห้าปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนบาทถึงสี่แสนบาท】 หรือ (OR) อ้างอิง: 【ถ้าการกระทำความผิดตามวรรคสี่ เป็นการกระทำแก่เด็กอายุยังไม่เกินสิบสามปี ต้องระวางโทษจำคุกตั้งแต่เจ็ดปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนสี่หมื่นบาทถึงสี่แสนบาท หรือจำคุกตลอดชีวิต】) และ (AND) 【ทำให้ผู้ถูกกระทำเข้าใจว่าผู้กระทำมีอาวุธปืนหรือวัตถุระเบิด】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "REF",
+              "node_id": "th-criminal:279@2019-05-28/p4"
+            },
+            {
+              "op": "REF",
+              "node_id": "th-criminal:279@2019-05-28/p5"
+            }
+          ]
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2019-05-28/p6/element:believed_weapon"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@2019-05-28/p6",
+        "start": 0,
+        "end": 205,
+        "quote": "ถ้าการกระทำความผิดตามวรรคสี่หรือวรรคห้า ได้กระทำโดยทำให้ผู้ถูกกระทำเข้าใจว่าผู้กระทำมีอาวุธปืนหรือวัตถุระเบิด ต้องระวางโทษจำคุกตั้งแต่สิบปีถึงยี่สิบปี และปรับตั้งแต่สองแสนบาทถึงสี่แสนบาท หรือจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@2019-05-28/p7",
+    "label": "279 วรรค 7",
+    "interval": {
+      "effective_from": "2019-05-28",
+      "effective_to_exclusive": "2025-12-30",
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "((อ้างอิง: 【ถ้าการกระทำความผิดตามวรรคหนึ่งหรือวรรคสาม เป็นการกระทำโดยใช้วัตถุหรืออวัยวะอื่นซึ่งมิใช่อวัยวะเพศล่วงล้ำอวัยวะเพศหรือทวารหนักของเด็กนั้น ผู้กระทำต้องระวางโทษจำคุกตั้งแต่ห้าปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนบาทถึงสี่แสนบาท】 หรือ (OR) อ้างอิง: 【ถ้าการกระทำความผิดตามวรรคสี่ เป็นการกระทำแก่เด็กอายุยังไม่เกินสิบสามปี ต้องระวางโทษจำคุกตั้งแต่เจ็ดปีถึงยี่สิบปี และปรับตั้งแต่หนึ่งแสนสี่หมื่นบาทถึงสี่แสนบาท หรือจำคุกตลอดชีวิต】) และ (AND) (【มีอาวุธปืนหรือวัตถุระเบิด】 หรือ (OR) 【โดยใช้อาวุธ】 หรือ (OR) 【ร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมเด็กหญิงหรือกระทำกับเด็กชายในลักษณะเดียวกัน】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "REF",
+              "node_id": "th-criminal:279@2019-05-28/p4"
+            },
+            {
+              "op": "REF",
+              "node_id": "th-criminal:279@2019-05-28/p5"
+            }
+          ]
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@2019-05-28/p7/element:firearm_explosive_have"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@2019-05-28/p7/element:weapon_use"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@2019-05-28/p7/element:joint_gang_conduct"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@2019-05-28/p7",
+        "start": 0,
+        "end": 215,
+        "quote": "ถ้าการกระทำความผิดตามวรรคสี่หรือวรรคห้า ได้กระทำโดยมีอาวุธปืนหรือวัตถุระเบิด หรือโดยใช้อาวุธ หรือโดยร่วมกระทำความผิดด้วยกันอันมีลักษณะเป็นการโทรมเด็กหญิงหรือกระทำกับเด็กชายในลักษณะเดียวกัน ต้องระวางโทษจำคุกตลอดชีวิต"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:278@2025-12-30/p1",
+    "label": "278 วรรค 1",
+    "interval": {
+      "effective_from": "2025-12-30",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำอนาจาร】 และ (AND) 【บุคคล】 และ (AND) 【อายุกว่าสิบห้าปี】 และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【บุคคลนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้บุคคลนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@2025-12-30/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@2025-12-30/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@2025-12-30/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:278@2025-12-30/p1/element:age_4"
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@2025-12-30/p1/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@2025-12-30/p1/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@2025-12-30/p1/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:278@2025-12-30/p1/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:278@2025-12-30/p1",
+        "start": 0,
+        "end": 264,
+        "quote": "มาตรา ๒๗๘ ผู้ใดกระทำอนาจารแก่บุคคลอายุกว่าสิบห้าปีโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยบุคคลนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้บุคคลนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษ จำคุกไม่เกินสิบปี หรือปรับไม่เกินสองแสนบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@2025-12-30/p1",
+    "label": "279 วรรค 1",
+    "interval": {
+      "effective_from": "2025-12-30",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "base_offence",
+    "thai_equation": "(【ผู้ใด】 และ (AND) 【กระทำอนาจาร】 และ (AND) 【เด็ก】 และ (AND) 【อายุยังไม่เกินสิบห้าปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2025-12-30/p1/element:actor"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2025-12-30/p1/element:conduct"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2025-12-30/p1/element:object_person"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2025-12-30/p1/element:age_2"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@2025-12-30/p1",
+        "start": 0,
+        "end": 161,
+        "quote": "มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบห้าปี โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกไม่เกินสิบปี หรือปรับไม่เกินสองแสนบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@2025-12-30/p2",
+    "label": "279 วรรค 2",
+    "interval": {
+      "effective_from": "2025-12-30",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "(อ้างอิง: 【มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบห้าปี โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกไม่เกินสิบปี หรือปรับไม่เกินสองแสนบาท หรือทั้งจำทั้งปรับ】 และ (AND) 【อายุไม่เกินสิบสามปี】)",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "REF",
+          "node_id": "th-criminal:279@2025-12-30/p1"
+        },
+        {
+          "op": "LEAF",
+          "node_id": "th-criminal:279@2025-12-30/p2/element:age_1"
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@2025-12-30/p2",
+        "start": 0,
+        "end": 167,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่ง เป็นการกระทำแก่เด็กอายุไม่เกินสิบสามปี ต้องระวางโทษจำคุกตั้งแต่หนึ่งปีถึงสิบปี หรือปรับตั้งแต่สองหมื่นบาทถึงสองแสนบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  },
+  {
+    "node_id": "th-criminal:279@2025-12-30/p3",
+    "label": "279 วรรค 3",
+    "interval": {
+      "effective_from": "2025-12-30",
+      "effective_to_exclusive": null,
+      "observed_through": "2026-10-07"
+    },
+    "rule_layer": "aggravator",
+    "thai_equation": "((อ้างอิง: 【มาตรา ๒๗๙ ผู้ใดกระทำอนาจารแก่เด็กอายุยังไม่เกินสิบห้าปี โดยเด็กนั้นจะยินยอมหรือไม่ก็ตาม ต้องระวางโทษจำคุกไม่เกินสิบปี หรือปรับไม่เกินสองแสนบาท หรือทั้งจำทั้งปรับ】 หรือ (OR) อ้างอิง: 【ถ้าการกระทำความผิดตามวรรคหนึ่ง เป็นการกระทำแก่เด็กอายุไม่เกินสิบสามปี ต้องระวางโทษจำคุกตั้งแต่หนึ่งปีถึงสิบปี หรือปรับตั้งแต่สองหมื่นบาทถึงสองแสนบาท หรือทั้งจำทั้งปรับ】) และ (AND) (【ขู่เข็ญด้วยประการใด ๆ】 หรือ (OR) 【ใช้กำลังประทุษร้าย】 หรือ (OR) 【เด็กนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้】 หรือ (OR) 【ทำให้เด็กนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น】))",
+    "ast": {
+      "op": "AND",
+      "children": [
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "REF",
+              "node_id": "th-criminal:279@2025-12-30/p1"
+            },
+            {
+              "op": "REF",
+              "node_id": "th-criminal:279@2025-12-30/p2"
+            }
+          ]
+        },
+        {
+          "op": "OR",
+          "children": [
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@2025-12-30/p3/element:threat"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@2025-12-30/p3/element:force"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@2025-12-30/p3/element:inability_to_resist"
+            },
+            {
+              "op": "LEAF",
+              "node_id": "th-criminal:279@2025-12-30/p3/element:mistaken_identity"
+            }
+          ]
+        }
+      ]
+    },
+    "source_refs": [
+      {
+        "evidence_id": "evidence:th-criminal:279@2025-12-30/p3",
+        "start": 0,
+        "end": 296,
+        "quote": "ถ้าการกระทำความผิดตามวรรคหนึ่งหรือวรรคสอง ผู้กระทำได้กระทำโดยขู่เข็ญด้วยประการใด ๆ โดยใช้กำลังประทุษร้าย โดยเด็กนั้นอยู่ในภาวะที่ไม่สามารถขัดขืนได้ หรือโดยทำให้เด็กนั้นเข้าใจผิดว่าตนเป็นบุคคลอื่น ต้องระวางโทษจำคุกตั้งแต่หนึ่งปีถึงสิบห้าปี หรือปรับตั้งแต่สองหมื่นบาทถึงสามแสนบาท หรือทั้งจำทั้งปรับ"
+      }
+    ],
+    "status": "provisional_engineering_annotation_not_validated_legal_closure"
+  }
+]
